@@ -12,14 +12,14 @@ public class Crop {
     private List<String> climate;
     private int waterTimer; //arbitiary
     private int currentTimeAlive = 0;
-    private int harvestTimer;
+    private int harvestTime;
 
     public Crop() {}
-    public Crop(String name, List<String> season, List<String> climate, int harvestTimer){
+    public Crop(String name, List<String> season, List<String> climate, int harvestTime){
         this.name = name;
         this.season = season;
         this.climate = climate;
-        this.harvestTimer = harvestTimer;
+        this.harvestTime = harvestTime;
     }
 
     public String getName() {
@@ -38,7 +38,7 @@ public class Crop {
         return waterTimer;
     }
 
-    public int getHarvestTimer() {
-        return harvestTimer;
+    public int getHarvestTime() {
+        return harvestTime;
     }
 }
