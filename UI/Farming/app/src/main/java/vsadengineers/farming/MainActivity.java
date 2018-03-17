@@ -17,5 +17,9 @@ public class MainActivity extends AppCompatActivity {
         Intent startNewActivity = new Intent(this, ManageFarm.class);
         startActivity(startNewActivity);
     }
+    public void newCrop(View v) {
+        Intent intentNewCrop = new Intent(this, addNewCrop.class);
+        startActivity(intentNewCrop);
+    }
 
 }
