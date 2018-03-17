@@ -18,16 +18,20 @@ public class MainActivity extends AppCompatActivity {
     private GridView gridViewItems; //The list itself
     private DatabaseReference databaseCrops;
     private DatabaseReference databaseWeather;
+    private DatabaseReference databaseClimates;
     private List<Crop> crops;
+    private List<String> climates;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        databaseCrops = FirebaseDatabase.getInstance().getReference("crop");
+        databaseCrops = FirebaseDatabase.getInstance().getReference("crops");
+        databaseClimates = FirebaseDatabase.getInstance().getReference("climates");
         /*databaseWeather = apidatabase.getinstance.getreference("name of thing");*/
         crops = new ArrayList<>();
+        climates = new ArrayList<>();
 
         gridViewItems = findViewById(R.id.gridViewItems);
 
@@ -37,18 +41,18 @@ public class MainActivity extends AppCompatActivity {
     protected void onStart() {
         super.onStart();
 
-        databaseCrops.addValueEventListener(new ValueEventListener() {
+        databaseClimates.addValueEventListener(new ValueEventListener() {
             @Override
             public void onDataChange(DataSnapshot dataSnapshot) {
 
-                crops.clear();
-                for(DataSnapshot cropSnapshot: dataSnapshot.getChildren()){
-                    Crop crop = cropSnapshot.getValue(Crop.class);
-                    crops.add(crop);
+                climates.clear();
+                for(DataSnapshot itemSnapshot: dataSnapshot.getChildren()){
+                    String climate = itemSnapshot.getValue(String.class);
+                    climates.add(climate);
                 }
 
-                CropList cropsAdapter = new CropList(MainActivity.this, crops);
-                gridViewItems.setAdapter(cropsAdapter);
+                ClimateList adapter = new ClimateList(MainActivity.this, climates);
+                gridViewItems.setAdapter(adapter);
             }
 
             @Override
@@ -58,3 +62,4 @@ public class MainActivity extends AppCompatActivity {
         });
     }
 }
+
