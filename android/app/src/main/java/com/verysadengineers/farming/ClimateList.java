@@ -8,6 +8,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
+import android.widget.GridView;
 import android.widget.TextView;
 
 import java.util.ArrayList;
@@ -22,7 +23,7 @@ public class ClimateList extends ArrayAdapter<String> {
     private List<String> climates = new ArrayList<>();
 
     public ClimateList(Activity context, List<String> climates){
-        super(context, R.layout.list_items, climates);
+        super(context, R.layout.grid_layout, climates);
         this.context = context;
         this.climates = climates;
     }
@@ -34,14 +35,14 @@ public class ClimateList extends ArrayAdapter<String> {
         LayoutInflater layoutInflater = context.getLayoutInflater();
 
         @SuppressLint("ViewHolder")
-        View listViewItem = layoutInflater.inflate(R.layout.list_items, null, true);
+        View gridViewItem = layoutInflater.inflate(R.layout.grid_layout, null, true);
 
-        TextView textViewName = listViewItem.findViewById(R.id.textViewName);
+        TextView textViewItem = gridViewItem.findViewById(R.id.textViewItem);
 
         String climate = climates.get(position);
 
-        textViewName.setText(climate);
+        textViewItem.setText(climate);
 
-        return listViewItem;
+        return gridViewItem;
     }
 }

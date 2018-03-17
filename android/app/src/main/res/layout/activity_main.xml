@@ -6,8 +6,12 @@
     android:layout_height="match_parent"
     tools:context="com.verysadengineers.farming.MainActivity">
 
-    <ListView
-        android:id="@+id/listViewCrops"
+    <GridView
+        android:id="@+id/gridViewItems"
         android:layout_width="match_parent"
-        android:layout_height="match_parent" />
+        android:layout_height="match_parent"
+        android:numColumns="3"
+        android:columnWidth="100dp"
+        android:stretchMode="columnWidth"
+        android:gravity="center"/>
 </android.support.constraint.ConstraintLayout>

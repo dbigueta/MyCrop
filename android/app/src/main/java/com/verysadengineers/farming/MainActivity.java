@@ -3,7 +3,6 @@ package com.verysadengineers.farming;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.GridView;
-import android.widget.ListView;
 
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
@@ -16,7 +15,7 @@ import java.util.List;
 
 public class MainActivity extends AppCompatActivity {
 
-    private ListView listViewCrops; //The list itself
+    private GridView gridViewItems; //The list itself
     private DatabaseReference databaseCrops;
     private DatabaseReference databaseWeather;
     private List<Crop> crops;
@@ -30,7 +29,7 @@ public class MainActivity extends AppCompatActivity {
         /*databaseWeather = apidatabase.getinstance.getreference("name of thing");*/
         crops = new ArrayList<>();
 
-        listViewCrops = findViewById(R.id.listViewCrops);
+        gridViewItems = findViewById(R.id.gridViewItems);
 
     }
 
@@ -49,7 +48,7 @@ public class MainActivity extends AppCompatActivity {
                 }
 
                 CropList cropsAdapter = new CropList(MainActivity.this, crops);
-                listViewCrops.setAdapter(cropsAdapter);
+                gridViewItems.setAdapter(cropsAdapter);
             }
 
             @Override
