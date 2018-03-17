@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Farming</string>
+    <array name="season">
+        <item>Fall</item>
+        <item>Winter</item>
+        <item>Spring</item>
+        <item>Summer</item>
+    </array>
+</resources>
