@@ -4,6 +4,7 @@
 		"name": "Bean",
 		"harvestTime": 50, 
 		"temperature": 22,
+		"image": "Images/Bean.png",
 		"season": ["Spring", "Fall"],
 		"climate": ["Desert", "Mediterranean"]
 	},
@@ -11,6 +12,7 @@
 		"name": "Beet",
 		"harvestTime": 55, 
 		"temperature": 7,
+		"image": "Images/Beet2.jpg",
 		"season": ["Spring", "Fall"],
 		"climate": ["Coastal"]
 	},
@@ -25,6 +27,7 @@
 		"name": "Broccoli",
 		"harvestTime": 60, 
 		"temperature": 12.5,
+		"image": "Images/Broccoli.jpg",
 		"season": ["Spring", "Fall"],
 		"climate": ["Coastal", "Tropical"]
 	},
@@ -53,6 +56,7 @@
 		"name": "Carrot",
 		"harvestTime": 70, 
 		"temperature": 7,
+		"image": "Images/Carrot.jpg",
 		"season": ["Spring", "Fall"],
 		"climate": ["Coastal"]
 	},
@@ -88,6 +92,7 @@
 		"name": "Corn",
 		"harvestTime": 65, 
 		"temperature": 13,
+		"image": "Images/Corn.jpg",
 		"season": ["Spring"],
 		"climate": ["Coastal", "Tropical"]
 	},
@@ -235,6 +240,7 @@
 		"name": "Tomato",
 		"harvestTime": 70, 
 		"temperature": 13,
+		"image": "Images/Tomato.jpg",
 		"season": ["Spring", "Fall"],
 		"climate": ["Coastal", "Tropical"]
 	},
@@ -249,6 +255,7 @@
 		"name": "Watermelon",
 		"harvestTime": 80, 
 		"temperature": 22,
+		"image": "Images/Watermelon.jpg",
 		"season": ["Spring"],
 		"climate": ["Desert", "Mediterranean"]
 	},
@@ -268,8 +275,11 @@
 	}
 	],
 	
-	"climate":
-	{	
-		"climates": ["Coastal", "Desert", "Mediterranean", "Tropical"]
-	}
+	"climate":	
+	[
+		"Coastal",
+		"Desert",
+		"Mediterranean",
+		"Tropical"
+	]
 }
