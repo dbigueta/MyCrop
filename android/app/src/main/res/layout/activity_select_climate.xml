@@ -4,10 +4,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.verysadengineers.farming.MainActivity">
+    tools:context="com.verysadengineers.farming.SelectClimate">
 
     <GridView
-        android:id="@+id/gridViewItems"
+        android:id="@+id/gridViewClimates"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:numColumns="3"

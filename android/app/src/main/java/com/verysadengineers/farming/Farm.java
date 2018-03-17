@@ -22,7 +22,7 @@ public class Farm extends ArrayAdapter<Crop>{
     private List<Crop> crops = new ArrayList<>(); //how to make this an array?
 
     public Farm(Activity context, List<Crop> crops){
-        super(context, R.layout.grid_layout, crops);
+        super(context, R.layout.grid_layout_climate, crops);
         this.context = context;
         this.crops = crops;
     }
@@ -42,7 +42,7 @@ public class Farm extends ArrayAdapter<Crop>{
         LayoutInflater layoutInflater = context.getLayoutInflater();
 
         @SuppressLint("ViewHolder")
-        View listViewItem = layoutInflater.inflate(R.layout.grid_layout, null, true);
+        View listViewItem = layoutInflater.inflate(R.layout.grid_layout_climate, null, true);
 
         TextView textViewName = (TextView) listViewItem.findViewById(R.id.textViewItem);
 

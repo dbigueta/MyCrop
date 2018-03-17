@@ -22,7 +22,7 @@ public class CropList extends ArrayAdapter<Crop> {
     private List<Crop> crops = new ArrayList<>(); //how to make this an array?
 
     public CropList(Activity context, List<Crop> crops){
-        super(context, R.layout.grid_layout, crops);
+        super(context, R.layout.grid_layout_climate, crops);
         this.context = context;
         this.crops = crops;
     }
@@ -34,7 +34,7 @@ public class CropList extends ArrayAdapter<Crop> {
         LayoutInflater layoutInflater = context.getLayoutInflater();
 
         @SuppressLint("ViewHolder")
-        View gridViewItem = layoutInflater.inflate(R.layout.grid_layout, null, true);
+        View gridViewItem = layoutInflater.inflate(R.layout.grid_layout_crop, null, true);
 
         TextView textViewItem = gridViewItem.findViewById(R.id.textViewItem);
 

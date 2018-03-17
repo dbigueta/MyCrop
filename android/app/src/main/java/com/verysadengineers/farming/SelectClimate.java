@@ -1,7 +1,10 @@
 package com.verysadengineers.farming;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.AdapterView;
 import android.widget.GridView;
 
 import com.google.firebase.database.DataSnapshot;
@@ -13,27 +16,32 @@ import com.google.firebase.database.ValueEventListener;
 import java.util.ArrayList;
 import java.util.List;
 
-public class MainActivity extends AppCompatActivity {
+public class SelectClimate extends AppCompatActivity {
 
-    private GridView gridViewItems; //The list itself
-    private DatabaseReference databaseCrops;
-    private DatabaseReference databaseWeather;
+    private GridView gridViewClimates; //The list itself
     private DatabaseReference databaseClimates;
-    private List<Crop> crops;
     private List<String> climates;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_select_climate);
 
-        databaseCrops = FirebaseDatabase.getInstance().getReference("crops");
         databaseClimates = FirebaseDatabase.getInstance().getReference("climates");
-        /*databaseWeather = apidatabase.getinstance.getreference("name of thing");*/
-        crops = new ArrayList<>();
         climates = new ArrayList<>();
 
-        gridViewItems = findViewById(R.id.gridViewItems);
+        gridViewClimates = findViewById(R.id.gridViewClimates);
+
+        gridViewClimates.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            public void onItemClick(AdapterView<?> parent, View v,
+                                    int position, long id) {
+                Intent intent = new Intent(v.getContext(), SelectCrop.class);
+                intent.putExtra("climate", climates.get(position));
+                climates.get(position);
+
+                startActivity(intent);
+            }
+        });
 
     }
 
@@ -41,7 +49,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onStart() {
         super.onStart();
 
-        databaseClimates.addValueEventListener(new ValueEventListener() {
+        databaseClimates.addListenerForSingleValueEvent(new ValueEventListener() {
             @Override
             public void onDataChange(DataSnapshot dataSnapshot) {
 
@@ -51,8 +59,8 @@ public class MainActivity extends AppCompatActivity {
                     climates.add(climate);
                 }
 
-                ClimateList adapter = new ClimateList(MainActivity.this, climates);
-                gridViewItems.setAdapter(adapter);
+                ClimateList adapter = new ClimateList(SelectClimate.this, climates);
+                gridViewClimates.setAdapter(adapter);
             }
 
             @Override
@@ -61,5 +69,11 @@ public class MainActivity extends AppCompatActivity {
             }
         });
     }
+
+    /*public void sendMessage(View view) {
+        Intent startNewActivity = new Intent(this, SelectCrop.class);
+        startActivity(startNewActivity);
+    }*/
+
 }
 
