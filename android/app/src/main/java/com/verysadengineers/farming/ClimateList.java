@@ -17,14 +17,14 @@ import java.util.List;
  * Created by Ali on 2018-03-17.
  */
 
-public class CropList extends ArrayAdapter<Crop> {
+public class ClimateList extends ArrayAdapter<String> {
     private Activity context;
-    private List<Crop> crops = new ArrayList<>(); //how to make this an array?
+    private List<String> climates = new ArrayList<>();
 
-    public CropList(Activity context, List<Crop> crops){
-        super(context, R.layout.list_items, crops);
+    public ClimateList(Activity context, List<String> climates){
+        super(context, R.layout.list_items, climates);
         this.context = context;
-        this.crops = crops;
+        this.climates = climates;
     }
 
 
@@ -36,13 +36,12 @@ public class CropList extends ArrayAdapter<Crop> {
         @SuppressLint("ViewHolder")
         View listViewItem = layoutInflater.inflate(R.layout.list_items, null, true);
 
-        TextView textViewName = (TextView) listViewItem.findViewById(R.id.textViewName);
+        TextView textViewName = listViewItem.findViewById(R.id.textViewName);
 
-        Crop crop = crops.get(position);
+        String climate = climates.get(position);
 
-        textViewName.setText(crop.getName());
+        textViewName.setText(climate);
 
         return listViewItem;
     }
 }
-
