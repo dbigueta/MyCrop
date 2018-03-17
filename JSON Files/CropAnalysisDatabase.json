@@ -240,7 +240,7 @@
 		"name": "Tomato",
 		"harvestTime": 70, 
 		"temperature": 13,
-		"image": "Images/Tomato.jpg",
+		"image": "Images/Tomato.jpg",
 		"season": ["Spring", "Fall"],
 		"climate": ["Coastal", "Tropical"]
 	},
