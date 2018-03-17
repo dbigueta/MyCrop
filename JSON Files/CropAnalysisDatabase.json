@@ -1,0 +1,270 @@
+{
+	"Crop": [
+	{
+		"Name": "Bean",
+		"HarvestTime": 50, 
+		"Temperature": 22,
+		"Season": ["Spring", "Fall"],
+		"Climate": ["Desert", "Mediterranean"]
+	},
+	{
+		"Name": "Beet",
+		"HarvestTime": 55, 
+		"Temperature": 7,
+		"Season": ["Spring", "Fall"],
+		"Climate": ["Coastal"]
+	},
+	{
+		"Name": "Bell Pepper",
+		"HarvestTime": 65, 
+		"Temperature": 18,
+		"Season": ["Spring", "Fall"],
+		"Climate": ["Mediterranean"]
+	},
+	{
+		"Name": "Broccoli",
+		"HarvestTime": 60, 
+		"Temperature": 12.5,
+		"Season": ["Spring", "Fall"],
+		"Climate": ["Coastal", "Tropical"]
+	},
+	{
+		"Name": "Butterpea",
+		"HarvestTime": 60, 
+		"Temperature": 24,
+		"Season": ["Spring", "Fall"],
+		"Climate": ["Desert"]
+	},
+	{
+		"Name": "Cabbage",
+		"HarvestTime": 70, 
+		"Temperature": 12.5,
+		"Season": ["Spring", "Fall"],
+		"Climate": ["Coastal", "Tropical"]
+	},
+	{
+		"Name": "Cantaloupe",
+		"HarvestTime": 80, 
+		"Temperature": 20,
+		"Season": ["Spring"],
+		"Climate": ["Desert", "Mediterranean"]
+	},
+	{
+		"Name": "Carrot",
+		"HarvestTime": 70, 
+		"Temperature": 7,
+		"Season": ["Spring", "Fall"],
+		"Climate": ["Coastal"]
+	},
+	{
+		"Name": "Cauliflower",
+		"HarvestTime": 60, 
+		"Temperature": 12.5,
+		"Season": ["Spring", "Fall"],
+		"Climate": ["Coastal", "Tropical"]
+	},
+	{
+		"Name": "Celery",
+		"HarvestTime": 130, 
+		"Temperature": 22,
+		"Season": ["Spring", "Fall"],
+		"Climate": ["Desert", "Mediterranean"]
+	},
+	{
+		"Name": "Cherry Tomato",
+		"HarvestTime": 70, 
+		"Temperature": 15,
+		"Season": ["Spring", "Fall"],
+		"Climate": ["Mediterranean"]
+	},
+	{
+		"Name": "Collard",
+		"HarvestTime": 55, 
+		"Temperature": 11,
+		"Season": ["Spring", "Fall"],
+		"Climate": ["Coastal", "Tropical"]
+	},
+	{
+		"Name": "Corn",
+		"HarvestTime": 65, 
+		"Temperature": 13,
+		"Season": ["Spring"],
+		"Climate": ["Coastal", "Tropical"]
+	},
+	{
+		"Name": "Cucumber",
+		"HarvestTime": 50, 
+		"Temperature": 18,
+		"Season": ["Spring", "Fall"],
+		"Climate": ["Mediterranean"]
+	},
+	{
+		"Name": "Eggplant",
+		"HarvestTime": 75, 
+		"Temperature": 24,
+		"Season": ["Spring", "Fall"],
+		"Climate": ["Desert"]
+	},
+	{
+		"Name": "Garden Pea",
+		"HarvestTime": 60, 
+		"Temperature": 7,
+		"Season": ["Spring"],
+		"Climate": ["Coastal"]
+	},
+	{
+		"Name": "Green Onion",
+		"HarvestTime": 60, 
+		"Temperature": 22.5,
+		"Season": ["Spring", "Fall"],
+		"Climate": ["Desert", "Mediterranean"]
+	},
+	{
+		"Name": "Hot Pepper",
+		"HarvestTime": 65, 
+		"Temperature": 18,
+		"Season": ["Spring"],
+		"Climate": ["Mediterranean"]
+	},
+	{
+		"Name": "Kale",
+		"HarvestTime": 50, 
+		"Temperature": 18.5,
+		"Season": ["Spring", "Fall"],
+		"Climate": ["Mediterranean"]
+	},
+	{
+		"Name": "Lettuce",
+		"HarvestTime": 60, 
+		"Temperature": 7,
+		"Season": ["Spring", "Fall"],
+		"Climate": ["Coastal"]
+	},
+	{
+		"Name": "Lima Bean",
+		"HarvestTime": 65, 
+		"Temperature": 18.5,
+		"Season": ["Spring", "Fall"],
+		"Climate": ["Mediterranean"]
+	},
+	{
+		"Name": "Mustard",
+		"HarvestTime": 40, 
+		"Temperature": 18,
+		"Season": ["Spring", "Fall"],
+		"Climate": ["Mediterranean"]
+	},
+	{
+		"Name": "Okra",
+		"HarvestTime": 55, 
+		"Temperature": 23.5,
+		"Season": ["Spring", "Fall"],
+		"Climate": ["Desert"]
+	},
+	{
+		"Name": "Onion",
+		"HarvestTime": 100, 
+		"Temperature": 22.5,
+		"Season": ["Spring", "Fall"],
+		"Climate": ["Desert", "Mediterranean"]
+	},
+	{
+		"Name": "Parsley",
+		"HarvestTime": 70, 
+		"Temperature": 7,
+		"Season": ["Spring"],
+		"Climate": ["Coastal"]
+	},
+	{
+		"Name": "Parsnip",
+		"HarvestTime": 120, 
+		"Temperature": 15.5,
+		"Season": ["Spring"],
+		"Climate": ["Tropical", "Mediterranean"]
+	},
+	{
+		"Name": "Pod Pea",
+		"HarvestTime": 60, 
+		"Temperature": 7,
+		"Season": ["Spring"],
+		"Climate": ["Coastal"]
+	},
+	{
+		"Name": "Potato",
+		"HarvestTime": 70, 
+		"Temperature": 17,
+		"Season": ["Spring"],
+		"Climate": ["Mediterranean"]
+	},
+	{
+		"Name": "Pumpkin",
+		"HarvestTime": 85, 
+		"Temperature": 24,
+		"Season": ["Spring"],
+		"Climate": ["Desert"]
+	},
+	{
+		"Name": "Radish",
+		"HarvestTime": 25, 
+		"Temperature": 7,
+		"Season": ["Spring", "Fall"],
+		"Climate": ["Coastal"]
+	},
+	{
+		"Name": "Red Onion",
+		"HarvestTime": 100, 
+		"Temperature": 22.5,
+		"Season": ["Spring", "Fall"],
+		"Climate": ["Desert", "Mediterranean"]
+	},
+	{
+		"Name": "Spinach",
+		"HarvestTime": 40, 
+		"Temperature": 7,
+		"Season": ["Spring", "Fall"],
+		"Climate": ["Coastal"]
+	},
+	{
+		"Name": "Squash",
+		"HarvestTime": 85, 
+		"Temperature": 21,
+		"Season": ["Spring"],
+		"Climate": ["Desert", "Mediterranean"]
+	},
+	{
+		"Name": "Tomato",
+		"HarvestTime": 70, 
+		"Temperature": 13,
+		"Season": ["Spring", "Fall"],
+		"Climate": ["Coastal", "Tropical"]
+	},
+	{
+		"Name": "Turnip",
+		"HarvestTime": 40, 
+		"Temperature": 10,
+		"Season": ["Spring", "Fall"],
+		"Climate": ["Coastal"]
+	},
+	{
+		"Name": "Watermelon",
+		"HarvestTime": 80, 
+		"Temperature": 22,
+		"Season": ["Spring"],
+		"Climate": ["Desert", "Mediterranean"]
+	},
+	{
+		"Name": "Yam",
+		"HarvestTime": 90, 
+		"Temperature": 22.5,
+		"Season": ["Spring"],
+		"Climate": ["Desert", "Mediterranean"]
+	},
+	{
+		"Name": "Zucchini",
+		"HarvestTime": 40, 
+		"Temperature": 15.5,
+		"Season": ["Spring", "Fall"],
+		"Climate": ["Tropical"]
+	}
+	]
+}
