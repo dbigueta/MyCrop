@@ -9,6 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <meta-data android:value="4c5e2e1b39084c2705b31319ff76d4e9" android:name="api_key"></meta-data>
         <activity android:name="com.verysadengineers.farming.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

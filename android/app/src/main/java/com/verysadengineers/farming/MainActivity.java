@@ -16,9 +16,9 @@ import java.util.List;
 
 public class MainActivity extends AppCompatActivity {
 
-    //Spinner spinnerSeason; possible spinner to choose season
-    private ListView listViewCrops;
+    private ListView listViewCrops; //The list itself
     private DatabaseReference databaseCrops;
+    private DatabaseReference databaseWeather;
     private List<Crop> crops;
 
     @Override
@@ -27,6 +27,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         databaseCrops = FirebaseDatabase.getInstance().getReference("crop");
+        /*databaseWeather = apidatabase.getinstance.getreference("name of thing");*/
         crops = new ArrayList<>();
 
         listViewCrops = findViewById(R.id.listViewCrops);
