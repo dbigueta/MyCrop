@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "174612708671",
+    "firebase_url": "https://missionhacks-project.firebaseio.com",
+    "project_id": "missionhacks-project",
+    "storage_bucket": "missionhacks-project.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:174612708671:android:9efad559866f7010",
+        "android_client_info": {
+          "package_name": "com.verysadengineers.farming"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "174612708671-0a6er6llfd651gkl2cbsk6kkmemat34l.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.verysadengineers.farming",
+            "certificate_hash": "834e4f72d9b83459bf1af4e95f15ffd0df2b14fb"
+          }
+        },
+        {
+          "client_id": "174612708671-vgjfantl7u2471l98rcgqpsa2jgo3sql.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDgb8idLWYO69jj3loQ9czaOR3RI77Lc78"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "174612708671-vgjfantl7u2471l98rcgqpsa2jgo3sql.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
