@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="vsadengineers.farming.MainActivity">
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="187dp"
+        android:layout_height="80dp"
+        android:backgroundTint="#f1bb87"
+        android:onClick="sendMessage"
+        android:text="Manage Crops"
+        tools:layout_editor_absoluteX="99dp"
+        tools:layout_editor_absoluteY="229dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="187dp"
+        android:layout_height="80dp"
+        android:backgroundTint="#f1bb87"
+        android:text="Add New Crop"
+        tools:layout_editor_absoluteX="99dp"
+        tools:layout_editor_absoluteY="369dp" />
+</android.support.constraint.ConstraintLayout>
