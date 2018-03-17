@@ -1,22 +1,24 @@
-package com.example.alvin.farming;
+package com.verysadengineers.farming;
+
+import java.util.List;
 
 /**
  * Created by Alvin on 2018-03-17.
  */
 
 public class Crop {
-    String name;
-    String season;
-    String climate;
-    int waterTimer; //arbitiary
-    int harvestTimer;
+    private String name;
+    private List<String> season;
+    private List<String> climate;
+    private int waterTimer; //arbitiary
+    private int currentTimeAlive = 0;
+    private int harvestTimer;
 
     public Crop() {}
-    public Crop(String name, String season, String climate, int waterTimer, int harvestTimer){
+    public Crop(String name, List<String> season, List<String> climate, int harvestTimer){
         this.name = name;
         this.season = season;
         this.climate = climate;
-        this.waterTimer = waterTimer;
         this.harvestTimer = harvestTimer;
     }
 
@@ -24,11 +26,11 @@ public class Crop {
         return name;
     }
 
-    public String getSeason() {
+    public List<String> getSeason() {
         return season;
     }
 
-    public String getClimate() {
+    public List<String> getClimate() {
         return climate;
     }
 
