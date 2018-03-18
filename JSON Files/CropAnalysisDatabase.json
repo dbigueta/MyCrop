@@ -4,6 +4,9 @@
 		"name": "Bean",
 		"harvestTime": 50, 
 		"temperature": 22,
+		"tips": "",
+		"pests": [],
+		"dishes": [],
 		"imageURL": "https://firebasestorage.googleapis.com/v0/b/missionhacks-project.appspot.com/o/29340488_2093385570688178_6472650989361954816_o.png?alt=media&token=ad784f0a-a48c-4689-a8a1-44c1508e256b",
 		"season": ["Spring", "Fall"],
 		"climate": ["Desert", "Mediterranean"]
@@ -12,6 +15,9 @@
 		"name": "Beet",
 		"harvestTime": 55, 
 		"temperature": 7,
+		"tips": "Best to plant during cool weather \n Plant seeds 1 to 2 inches apart \n Mulch and water well, best growth when soil has plenty of moisture",			
+		"pests": ["Flea Beetles", "Leaf Hoppers", "Mexican Bean Beetles"],
+		"dishes": ["Spicy Beet Bites", "Cumin Roasted Beets, Kale and Feta Salad", "Baked Beet Chips"],
 		"imageURL": "https://firebasestorage.googleapis.com/v0/b/missionhacks-project.appspot.com/o/29314206_2093199410706794_8572237411185065984_o.png?alt=media&token=eb00a8f7-8bfe-4899-a016-d0c19b1a24cf",
 		"season": ["Spring", "Fall"],
 		"climate": ["Coastal"]
@@ -20,6 +26,9 @@
 		"name": "Bell Pepper",
 		"harvestTime": 65, 
 		"temperature": 18,
+		"tips": "May need to be watered every day because they are extremely heat sensitive \n If possible, support plant growth with cages or stakes to avoid bending \n For larger fruit, spray plants with a solution of Epsom salts and water",			
+		"pests": ["Cutworms", "Tomato Hornworms", "Root-Knot Nematodes"],
+		"dishes": ["Ratatouille", "Grilled Pepper and Red-Onion Pizzas", "Toasted Peppers with Spaghetti Stuffing"],
 		"imageURL": "https://firebasestorage.googleapis.com/v0/b/missionhacks-project.appspot.com/o/29314444_2465838513428873_5047549478697959424_o.png?alt=media&token=a4fd2a3f-cca9-417c-8fbc-7762c0480792",
 		"season": ["Spring", "Fall"],
 		"climate": ["Mediterranean"]
@@ -28,6 +37,9 @@
 		"name": "Broccoli",
 		"harvestTime": 60, 
 		"temperature": 12.5,
+		"tips": "Seed 85 to 100 days before your average first fall frost \n Grows best when soil is moist \n Do not wet the head of the broccoli when watering",
+		"pests": ["Caterpillars", "Cabbageworms", "Whiteflies"],
+		"dishes": ["Beef and Broccoli", "Broccoli Salad", "Broccoli Soup"],
 		"imageURL": "https://firebasestorage.googleapis.com/v0/b/missionhacks-project.appspot.com/o/29313384_2093199420706793_8104777856497745920_o.png?alt=media&token=9b8ad553-3c76-46f0-b401-8d9380e587de",
 		"season": ["Spring", "Fall"],
 		"climate": ["Coastal", "Tropical"]
@@ -36,6 +48,9 @@
 		"name": "Butterpea",
 		"harvestTime": 60, 
 		"temperature": 24,
+		"tips": "",
+		"pests": [],
+		"dishes": [],
 		"imageURL": "https://firebasestorage.googleapis.com/v0/b/missionhacks-project.appspot.com/o/29314336_1174232642679925_612044045249675264_o.png?alt=media&token=f940f018-184d-4288-bb26-a6c29c6f32f9",
 		"season": ["Spring", "Fall"],
 		"climate": ["Desert"]
@@ -44,6 +59,9 @@
 		"name": "Cabbage",
 		"harvestTime": 70, 
 		"temperature": 12.5,
+		"tips": "",
+		"pests": [],
+		"dishes": [],
 		"imageURL": "https://firebasestorage.googleapis.com/v0/b/missionhacks-project.appspot.com/o/29339981_2465839996762058_2413916841786212352_o.png?alt=media&token=7bc70f24-4a3d-4810-8ea3-90a50422b220",
 		"season": ["Spring", "Fall"],
 		"climate": ["Coastal", "Tropical"]
@@ -52,6 +70,9 @@
 		"name": "Cantaloupe",
 		"harvestTime": 80, 
 		"temperature": 20,
+		"tips": "",
+		"pests": [],
+		"dishes": [],
 		"imageURL": "https://firebasestorage.googleapis.com/v0/b/missionhacks-project.appspot.com/o/29339511_2093232754036793_4262174224262627328_o.png?alt=media&token=96808e19-fa1b-4a8f-aac1-ab3839e088a8",
 		"season": ["Spring"],
 		"climate": ["Desert", "Mediterranean"]
@@ -60,6 +81,9 @@
 		"name": "Carrot",
 		"harvestTime": 70, 
 		"temperature": 7,
+		"tips": "",
+		"pests": [],
+		"dishes": [],
 		"imageURL": "https://firebasestorage.googleapis.com/v0/b/missionhacks-project.appspot.com/o/29339973_2465871956758862_3738543742953455616_o.png?alt=media&token=d1ac4adf-bcb6-4223-9471-ac2e8d17554e",
 		"season": ["Spring", "Fall"],
 		"climate": ["Coastal"]
@@ -68,6 +92,9 @@
 		"name": "Cauliflower",
 		"harvestTime": 60, 
 		"temperature": 12.5,
+		"tips": "",
+		"pests": [],
+		"dishes": [],
 		"imageURL": "https://firebasestorage.googleapis.com/v0/b/missionhacks-project.appspot.com/o/29314087_2093226297370772_513258092339658752_o.png?alt=media&token=176c4263-20dc-40ab-bd0e-1007c86b084a",
 		"season": ["Spring", "Fall"],
 		"climate": ["Coastal", "Tropical"]
@@ -76,6 +103,9 @@
 		"name": "Celery",
 		"harvestTime": 130, 
 		"temperature": 22,
+		"tips": "",
+		"pests": [],
+		"dishes": [],
 		"imageURL": "https://firebasestorage.googleapis.com/v0/b/missionhacks-project.appspot.com/o/Celery.png?alt=media&token=2d987f48-68dc-4101-a2e2-9fc1f97f0f10",
 		"season": ["Spring", "Fall"],
 		"climate": ["Desert", "Mediterranean"]
@@ -84,6 +114,9 @@
 		"name": "Cherry Tomato",
 		"harvestTime": 70, 
 		"temperature": 15,
+		"tips": "",
+		"pests": [],
+		"dishes": [],
 		"imageURL": "https://firebasestorage.googleapis.com/v0/b/missionhacks-project.appspot.com/o/29339956_2093344977358904_1305479309896450048_o.png?alt=media&token=bc9b3a0c-8af4-4281-9582-2ed4eb895cbe",
 		"season": ["Spring", "Fall"],
 		"climate": ["Mediterranean"]
@@ -92,6 +125,9 @@
 		"name": "Collard",
 		"harvestTime": 55, 
 		"temperature": 11,
+		"tips": "",
+		"pests": [],
+		"dishes": [],
 		"imageURL": "https://firebasestorage.googleapis.com/v0/b/missionhacks-project.appspot.com/o/Collard.png?alt=media&token=2590890c-974b-4a90-bf46-efe0b3bb561c",
 		"season": ["Spring", "Fall"],
 		"climate": ["Coastal", "Tropical"]
@@ -100,6 +136,9 @@
 		"name": "Corn",
 		"harvestTime": 65, 
 		"temperature": 13,
+		"tips":	"Need good quality soil, work with aged manure or compost \n Make sure soil temperature is above 60 degrees fahrenheit for successful germination \n Water well at planting time",
+		"pests": ["Seedcord Maggot", "Sugarcane Beetle", "Western Bean Cutworm"],
+		"dishes": ["Corn and Tomato Pasta Salad", "Fresh Corn Risotto with Wild Rice and Pancetta", "Mexican Corn Salsa"],
 		"imageURL": "https://firebasestorage.googleapis.com/v0/b/missionhacks-project.appspot.com/o/29356972_2093257240701011_3435418622082678784_o.png?alt=media&token=18e6a84b-e074-4fe1-81e9-74a8defe3972",
 		"season": ["Spring"],
 		"climate": ["Coastal", "Tropical"]
@@ -108,6 +147,9 @@
 		"name": "Cucumber",
 		"harvestTime": 50, 
 		"temperature": 18,
+		"tips": "",
+		"pests": [],
+		"dishes": [],
 		"imageURL": "https://firebasestorage.googleapis.com/v0/b/missionhacks-project.appspot.com/o/Cucumber.png?alt=media&token=b47be17b-251e-4601-91f0-b9241f978d52",
 		"season": ["Spring", "Fall"],
 		"climate": ["Mediterranean"]
@@ -116,6 +158,9 @@
 		"name": "Eggplant",
 		"harvestTime": 75, 
 		"temperature": 24,
+		"tips": "Love warmth and grows best in very sunny, well-draining locations \n Grow into tall, angular plants so they should be spaced 24 to 36 inches apart \n Be sure to keep well watered or they will be small and bitter",
+		"pests": ["Flea Beetles", "Tomato Hornworms", "Grasshoppers"],
+		"dishes": ["Eggplant Parmesan", "Eggplant Lasagna", "BBQ & Grilled Eggplant"],
 		"imageURL": "https://firebasestorage.googleapis.com/v0/b/missionhacks-project.appspot.com/o/29342936_2093364874023581_6489904362616258560_o.png?alt=media&token=6c85877f-d8d5-4c67-9c0a-435ee7d09a54",
 		"season": ["Spring", "Fall"],
 		"climate": ["Desert"]
@@ -124,6 +169,9 @@
 		"name": "Garden Pea",
 		"harvestTime": 60, 
 		"temperature": 7,
+		"tips": "",
+		"pests": [],
+		"dishes": [],
 		"imageURL": "https://firebasestorage.googleapis.com/v0/b/missionhacks-project.appspot.com/o/29314363_2093370474023021_6504583547221704704_o.png?alt=media&token=1656e513-39c2-442c-b02a-30ab4a357079",
 		"season": ["Spring"],
 		"climate": ["Coastal"]
@@ -132,6 +180,9 @@
 		"name": "Green Onion",
 		"harvestTime": 60, 
 		"temperature": 22.5,
+		"tips": "",
+		"pests": [],
+		"dishes": [],
 		"imageURL": "https://firebasestorage.googleapis.com/v0/b/missionhacks-project.appspot.com/o/29314461_1174232706013252_3503842703852961792_o.png?alt=media&token=e005c670-9acf-4743-8826-6dbb2118ad48",
 		"season": ["Spring", "Fall"],
 		"climate": ["Desert", "Mediterranean"]
@@ -140,6 +191,9 @@
 		"name": "Hot Pepper",
 		"harvestTime": 65, 
 		"temperature": 18,
+		"tips": "",
+		"pests": [],
+		"dishes": [],
 		"imageURL": "https://firebasestorage.googleapis.com/v0/b/missionhacks-project.appspot.com/o/29261992_2093199407373461_8167915138469330944_o.png?alt=media&token=f19d03f7-dc08-47bc-abd5-f4669df52a4e",
 		"season": ["Spring"],
 		"climate": ["Mediterranean"]
@@ -148,6 +202,9 @@
 		"name": "Kale",
 		"harvestTime": 50, 
 		"temperature": 18.5,
+		"tips": "",
+		"pests": [],
+		"dishes": [],
 		"imageURL": "https://firebasestorage.googleapis.com/v0/b/missionhacks-project.appspot.com/o/29261630_1174232676013255_6062223528009138176_o.png?alt=media&token=42f59c11-6e62-4da4-b82b-3e9ac2b436d2",
 		"season": ["Spring", "Fall"],
 		"climate": ["Mediterranean"]
@@ -156,6 +213,9 @@
 		"name": "Lettuce",
 		"harvestTime": 60, 
 		"temperature": 7,
+		"tips": "",
+		"pests": [],
+		"dishes": [],
 		"imageURL": "https://firebasestorage.googleapis.com/v0/b/missionhacks-project.appspot.com/o/Lettuce.png?alt=media&token=05a0ab42-edc0-45c7-9257-5d63ef71cee8",
 		"season": ["Spring", "Fall"],
 		"climate": ["Coastal"]
@@ -164,6 +224,9 @@
 		"name": "Lima Bean",
 		"harvestTime": 65, 
 		"temperature": 18.5,
+		"tips": "",
+		"pests": [],
+		"dishes": [],
 		"imageURL": "https://firebasestorage.googleapis.com/v0/b/missionhacks-project.appspot.com/o/29313514_1174232662679923_9152156853407318016_o.png?alt=media&token=6f706fa1-ac5c-49a9-8da1-2bf046aa937f",
 		"season": ["Spring", "Fall"],
 		"climate": ["Mediterranean"]
@@ -172,6 +235,9 @@
 		"name": "Mustard",
 		"harvestTime": 40, 
 		"temperature": 18,
+		"tips": "",
+		"pests": [],
+		"dishes": [],
 		"imageURL": "https://firebasestorage.googleapis.com/v0/b/missionhacks-project.appspot.com/o/29366482_2093292574030811_4183783434658775040_o.png?alt=media&token=63ade781-604f-4fea-9768-235d301a521a",
 		"season": ["Spring", "Fall"],
 		"climate": ["Mediterranean"]
@@ -180,6 +246,9 @@
 		"name": "Okra",
 		"harvestTime": 55, 
 		"temperature": 23.5,
+		"tips": "",
+		"pests": [],
+		"dishes": [],
 		"imageURL": "https://firebasestorage.googleapis.com/v0/b/missionhacks-project.appspot.com/o/29342526_1174232682679921_7202444582393479168_o.png?alt=media&token=ae0786fd-302d-4027-b4cd-802640f6f075",
 		"season": ["Spring", "Fall"],
 		"climate": ["Desert"]
@@ -188,6 +257,9 @@
 		"name": "Onion",
 		"harvestTime": 100, 
 		"temperature": 22.5,
+		"tips": "",
+		"pests": [],
+		"dishes": [],
 		"imageURL": "https://firebasestorage.googleapis.com/v0/b/missionhacks-project.appspot.com/o/29339929_2093310954028973_7943358640323297280_o.png?alt=media&token=788268e4-d060-46ee-acf0-b6217ee66085",
 		"season": ["Spring", "Fall"],
 		"climate": ["Desert", "Mediterranean"]
@@ -196,6 +268,9 @@
 		"name": "Parsley",
 		"harvestTime": 70, 
 		"temperature": 7,
+		"tips": "",
+		"pests": [],
+		"dishes": [],
 		"imageURL": "https://firebasestorage.googleapis.com/v0/b/missionhacks-project.appspot.com/o/29313896_1174232726013250_403677340426567680_o.png?alt=media&token=01e6ca0e-7c27-43a7-838f-d34d9e31afed",
 		"season": ["Spring"],
 		"climate": ["Coastal"]
@@ -204,6 +279,9 @@
 		"name": "Parsnip",
 		"harvestTime": 120, 
 		"temperature": 15.5,
+		"tips": "",
+		"pests": [],
+		"dishes": [],
 		"imageURL": "https://firebasestorage.googleapis.com/v0/b/missionhacks-project.appspot.com/o/29313593_2093240777369324_5564078416266788864_o.png?alt=media&token=c2f49fc4-b814-4533-8a05-013a2bd8d3e6",
 		"season": ["Spring"],
 		"climate": ["Tropical", "Mediterranean"]
@@ -212,6 +290,9 @@
 		"name": "Pod Pea",
 		"harvestTime": 60, 
 		"temperature": 7,
+		"tips": "",
+		"pests": [],
+		"dishes": [],
 		"imageURL": "https://firebasestorage.googleapis.com/v0/b/missionhacks-project.appspot.com/o/29314189_1174232712679918_610462500852334592_o.png?alt=media&token=228e7c94-e6b2-4cff-9c46-47b2ed4e1653",
 		"season": ["Spring"],
 		"climate": ["Coastal"]
@@ -220,6 +301,9 @@
 		"name": "Potato",
 		"harvestTime": 70, 
 		"temperature": 17,
+		"tips": "",
+		"pests": [],
+		"dishes": [],
 		"imageURL": "https://firebasestorage.googleapis.com/v0/b/missionhacks-project.appspot.com/o/29314491_2093303884029680_4999817458438111232_o.png?alt=media&token=008306b0-a9d9-4e53-af58-2b305650840d",
 		"season": ["Spring"],
 		"climate": ["Mediterranean"]
@@ -228,6 +312,9 @@
 		"name": "Pumpkin",
 		"harvestTime": 85, 
 		"temperature": 24,
+		"tips": "",
+		"pests": [],
+		"dishes": [],
 		"imageURL": "https://firebasestorage.googleapis.com/v0/b/missionhacks-project.appspot.com/o/29261984_2093337810692954_2360202516198588416_o.png?alt=media&token=88b4c683-6018-49e7-8fd3-6b0a3a978abe",
 		"season": ["Spring"],
 		"climate": ["Desert"]
@@ -236,6 +323,9 @@
 		"name": "Radish",
 		"harvestTime": 25, 
 		"temperature": 7,
+		"tips": "",
+		"pests": [],
+		"dishes": [],
 		"imageURL": "https://firebasestorage.googleapis.com/v0/b/missionhacks-project.appspot.com/o/29343282_2093354334024635_1211157374195204096_o.png?alt=media&token=76f01e10-cf96-4e7d-bdf8-559afc447e0b",
 		"season": ["Spring", "Fall"],
 		"climate": ["Coastal"]
@@ -244,6 +334,9 @@
 		"name": "Red Onion",
 		"harvestTime": 100, 
 		"temperature": 22.5,
+		"tips": "",
+		"pests": [],
+		"dishes": [],
 		"imageURL": "https://firebasestorage.googleapis.com/v0/b/missionhacks-project.appspot.com/o/29343301_2465884983424226_5242193780190216192_o.png?alt=media&token=657334a4-29cc-4dc6-bd49-47c7efbf0aae",
 		"season": ["Spring", "Fall"],
 		"climate": ["Desert", "Mediterranean"]
@@ -252,6 +345,9 @@
 		"name": "Spinach",
 		"harvestTime": 40, 
 		"temperature": 7,
+		"tips": "",
+		"pests": [],
+		"dishes": [],
 		"imageURL": "https://firebasestorage.googleapis.com/v0/b/missionhacks-project.appspot.com/o/29313070_1174232652679924_4954054706453282816_o.png?alt=media&token=5829f9c6-903e-4c9a-8791-307506a9cbd3",
 		"season": ["Spring", "Fall"],
 		"climate": ["Coastal"]
@@ -260,6 +356,9 @@
 		"name": "Squash",
 		"harvestTime": 85, 
 		"temperature": 21,
+		"tips": "",
+		"pests": [],
+		"dishes": [],
 		"imageURL": "https://firebasestorage.googleapis.com/v0/b/missionhacks-project.appspot.com/o/29314529_2093325414027527_2049511475428458496_o.png?alt=media&token=00589c45-7f9e-43c4-934f-dc9abfee92b6",
 		"season": ["Spring"],
 		"climate": ["Desert", "Mediterranean"]
@@ -268,6 +367,9 @@
 		"name": "Tomato",
 		"harvestTime": 70, 
 		"temperature": 13,
+		"tips": "",
+		"pests": [],
+		"dishes": [],
 		"imageURL": "https://firebasestorage.googleapis.com/v0/b/missionhacks-project.appspot.com/o/29314054_2093355464024522_7503220901614190592_o.png?alt=media&token=7368dc37-e287-4421-a9ee-10eaf8aa8257",
 		"season": ["Spring", "Fall"],
 		"climate": ["Coastal", "Tropical"]
@@ -276,6 +378,9 @@
 		"name": "Turnip",
 		"harvestTime": 40, 
 		"temperature": 10,
+		"tips": "",
+		"pests": [],
+		"dishes": [],
 		"imageURL": "https://firebasestorage.googleapis.com/v0/b/missionhacks-project.appspot.com/o/29340116_2093325554027513_6370789384601468928_o.png?alt=media&token=cf554547-4a3b-41e4-8148-d6030408d7b6",
 		"season": ["Spring", "Fall"],
 		"climate": ["Coastal"]
@@ -284,6 +389,9 @@
 		"name": "Watermelon",
 		"harvestTime": 80, 
 		"temperature": 22,
+		"tips": "",
+		"pests": [],
+		"dishes": [],
 		"imageURL": "https://firebasestorage.googleapis.com/v0/b/missionhacks-project.appspot.com/o/29262060_2093360810690654_2254609607060094976_o.png?alt=media&token=e24afcff-4ed9-48fd-ad54-adff3fe29ed7",
 		"season": ["Spring"],
 		"climate": ["Desert", "Mediterranean"]
@@ -292,6 +400,9 @@
 		"name": "Yam",
 		"harvestTime": 90, 
 		"temperature": 22.5,
+		"tips": "",
+		"pests": [],
+		"dishes": [],
 		"imageURL": "https://firebasestorage.googleapis.com/v0/b/missionhacks-project.appspot.com/o/29356121_2093334124026656_793045396011089920_o.png?alt=media&token=b96fe874-d2f3-423b-a6bb-a5249e02e7c7",
 		"season": ["Spring"],
 		"climate": ["Desert", "Mediterranean"]
@@ -300,347 +411,12 @@
 		"name": "Zucchini",
 		"harvestTime": 40, 
 		"temperature": 15.5,
+		"tips": "",
+		"pests": [],
+		"dishes": [],
 		"imageURL": "https://firebasestorage.googleapis.com/v0/b/missionhacks-project.appspot.com/o/29261292_1174232692679920_2082439069836509184_o.png?alt=media&token=9663a1d0-9094-4074-8e73-8dfe2c9eea3d",
 		"season": ["Spring", "Fall"],
 		"climate": ["Tropical"]
-	}
-	],
-	
-	"description": [
-	{
-		"Broccoli": [
-		{
-			"tips": 
-			[
-				"Seed 85 to 100 days before your average first fall frost",
-				"Grows best when soil is moist",
-				"Do not wet the head of the broccoli when watering"
-			],
-			
-			"pests": ["Caterpillars", "Cabbageworms", "Whiteflies"],
-			"dishes": ["Beef and Broccoli", "Broccoli Salad", "Broccoli Soup"]
-		}
-		],
-		
-		"Beet": [
-		{
-			"tips":
-			[
-				"Best to plant during cool weather",
-				"Plant seeds 1 to 2 inches apart",
-				"Mulch and water well, best growth when soil has plenty of moisture"
-			],
-			
-			"pests": ["Flea Beetles", "Leaf Hoppers", "Mexican Bean Beetles"],
-			"dishes": ["Spicy Beet Bites", "Cumin Roasted Beets, Kale and Feta Salad", "Baked Beet Chips"]
-		}
-		],
-		
-		"Eggplant": [
-		{
-			"tips":
-			[
-				"Love warmth and grows best in very sunny, well-draining locations",
-				"Grow into tall, angular plants so they should be spaced 24 to 36 inches apart",
-				"Be sure to keep well watered or they will be small and bitter"
-			],
-			
-			"pests": ["Flea Beetles", "Tomato Hornworms", "Grasshoppers"],
-			"dishes": ["Eggplant Parmesan", "Eggplant Lasagna", "BBQ & Grilled Eggplant"]
-		}
-		],
-		
-		"Bell Pepper": [
-		{
-			"tips":
-			[
-				"May need to be watered every day because they are extremely heat sensitive",
-				"If possible, support plant growth with cages or stakes to avoid bending",
-				"For larger fruit, spray plants with a solution of Epsom salts and water"
-			],
-			
-			"pests": ["Cutworms", "Tomato Hornworms", "Root-Knot Nematodes"],
-			"dishes": ["Ratatouille", "Grilled Pepper and Red-Onion Pizzas", "Toasted Peppers with Spaghetti Stuffing"]
-		}
-		],
-		
-		"Corn": [
-		{
-			"tips":
-			[
-				"Need good quality soil, work with aged manure or compost",
-				"Make sure soil temperature is above 60 degrees fahrenheit for successful germination",
-				"Water well at planting time"
-			],
-			
-			"pests": ["Seedcord Maggot", "Sugarcane Beetle", "Western Bean Cutworm"],
-			"dishes": ["Corn and Tomato Pasta Salad", "Fresh Corn Risotto with Wild Rice and Pancetta", "Mexican Corn Salsa"]
-		}
-		],
-		
-		"Bean": [
-		{
-			"tips": [],
-			"pests": [],
-			"dishes": []
-		}
-		],
-		
-		"Butterpea": [
-		{
-			"tips": [],
-			"pests": [],
-			"dishes": []
-		}
-		],
-		
-		"Cabbage": [
-		{
-			"tips": [],
-			"pests": [],
-			"dishes": []
-		}
-		],
-		
-		"Cantaloupe": [
-		{
-			"tips": [],
-			"pests": [],
-			"dishes": []
-		}
-		],
-		
-		"Carrot": [
-		{
-			"tips": [],
-			"pests": [],
-			"dishes": []
-		}
-		],
-		
-		"Cauliflower": [
-		{
-			"tips": [],
-			"pests": [],
-			"dishes": []
-		}
-		],
-		
-		"Celery": [
-		{
-			"tips": [],
-			"pests": [],
-			"dishes": []
-		}
-		],
-		
-		"Cherry Tomato": [
-		{
-			"tips": [],
-			"pests": [],
-			"dishes": []
-		}
-		],
-		
-		"Collard": [
-		{
-			"tips": [],
-			"pests": [],
-			"dishes": []
-		}
-		],
-		
-		"Cucumber": [
-		{
-			"tips": [],
-			"pests": [],
-			"dishes": []
-		}
-		],
-		
-		"Garden Pea": [
-		{
-			"tips": [],
-			"pests": [],
-			"dishes": []
-		}
-		],
-		
-		"Green Onion": [
-		{
-			"tips": [],
-			"pests": [],
-			"dishes": []
-		}
-		],
-	
-		"Hot Pepper": [
-		{
-			"tips": [],
-			"pests": [],
-			"dishes": []
-		}
-		],
-		
-		"Kale": [
-		{
-			"tips": [],
-			"pests": [],
-			"dishes": []
-		}
-		],
-		
-		"Lettuce": [
-		{
-			"tips": [],
-			"pests": [],
-			"dishes": []
-		}
-		],
-		
-		"Lima Bean": [
-		{
-			"tips": [],
-			"pests": [],
-			"dishes": []
-		}
-		],
-		
-		"Mustard": [
-		{
-			"tips": [],
-			"pests": [],
-			"dishes": []
-		}
-		],
-		
-		"Okra": [
-		{
-			"tips": [],
-			"pests": [],
-			"dishes": []
-		}
-		],
-		
-		"Onion": [
-		{
-			"tips": [],
-			"pests": [],
-			"dishes": []
-		}
-		],
-		
-		"Parsley": [
-		{
-			"tips": [],
-			"pests": [],
-			"dishes": []
-		}
-		],
-		
-		"Parsnip": [
-		{
-			"tips": [],
-			"pests": [],
-			"dishes": []
-		}
-		],
-		
-		"Pod Pea": [
-		{
-			"tips": [],
-			"pests": [],
-			"dishes": []
-		}
-		],
-		
-		"Potato": [
-		{
-			"tips": [],
-			"pests": [],
-			"dishes": []
-		}
-		],
-		
-		"Pumpkin": [
-		{
-			"tips": [],
-			"pests": [],
-			"dishes": []
-		}
-		],
-		
-		"Radish": [
-		{
-			"tips": [],
-			"pests": [],
-			"dishes": []
-		}
-		],
-		
-		"Red Onion": [
-		{
-			"tips": [],
-			"pests": [],
-			"dishes": []
-		}
-		],
-		
-		"Spinach": [
-		{
-			"tips": [],
-			"pests": [],
-			"dishes": []
-		}
-		],
-		
-		"Squash": [
-		{
-			"tips": [],
-			"pests": [],
-			"dishes": []
-		}
-		],
-		
-		"Tomato": [
-		{
-			"tips": [],
-			"pests": [],
-			"dishes": []
-		}
-		],
-		
-		"Turnip": [
-		{
-			"tips": [],
-			"pests": [],
-			"dishes": []
-		}
-		],
-		
-		"Watermelon": [
-		{
-			"tips": [],
-			"pests": [],
-			"dishes": []
-		}
-		],
-		
-		"Yam": [
-		{
-			"tips": [],
-			"pests": [],
-			"dishes": []
-		}
-		],
-		
-		"Zucchini": [
-		{
-			"tips": [],
-			"pests": [],
-			"dishes": []
-		}
-		]		
 	}
 	],
 	
