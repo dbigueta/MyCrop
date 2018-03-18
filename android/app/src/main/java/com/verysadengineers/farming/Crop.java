@@ -1,12 +1,13 @@
 package com.verysadengineers.farming;
 
+import java.io.Serializable;
 import java.util.List;
 
 /**
  * Created by Alvin on 2018-03-17.
  */
 
-public class Crop {
+public class Crop implements Serializable{
     private String name;
     private List<String> season;
     private List<String> climate;

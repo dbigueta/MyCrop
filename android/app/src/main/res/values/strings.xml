@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Farming</string>
+    <string name="cropName">cropName</string>
+    <string name="cropHarvest">cropHarvest</string>
 </resources>

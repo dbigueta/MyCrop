@@ -21,6 +21,7 @@
         </activity>
         <activity android:name="com.verysadengineers.farming.SelectCrop" />
         <activity android:name="com.verysadengineers.farming.SelectSeason" />
+        <activity android:name="com.verysadengineers.farming.printCrop" />
     </application>
 
 </manifest>

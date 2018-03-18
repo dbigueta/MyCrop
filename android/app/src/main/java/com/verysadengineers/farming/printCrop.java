@@ -32,7 +32,7 @@ public class printCrop extends AppCompatActivity {
         setContentView(R.layout.activity_print_crop);
         //listViewCrops = (ListView) findViewById(R.id.listViewCrop);
         Crop crop = (Crop) getIntent().getSerializableExtra("crop");
-        cropName = crop.getName().toString();
+        cropName = crop.getName();
         cropClimate = crop.getClimate();
         cropSeason = crop.getSeason();
         cropHarvest = crop.getHarvestTime();

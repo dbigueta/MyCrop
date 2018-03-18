@@ -1,8 +1,11 @@
 package com.verysadengineers.farming;
 
+import android.content.Intent;
 import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.view.View;
+import android.widget.AdapterView;
 import android.widget.GridView;
 
 import com.google.firebase.database.DataSnapshot;
@@ -34,7 +37,16 @@ public class SelectCrop extends AppCompatActivity {
         databaseCrops = FirebaseDatabase.getInstance().getReference("crop");
         crops = new ArrayList<>();
         gridViewCrops = findViewById(R.id.gridViewCrops);
+        gridViewCrops.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            public void onItemClick(AdapterView<?> parent, View v,
+                                    int position, long id) {
+                Intent intent = new Intent(v.getContext(), printCrop.class);
+                intent.putExtra("crop", crops.get(position));
+                crops.get(position);
 
+                startActivity(intent);
+            }
+        });
         }
 
 
