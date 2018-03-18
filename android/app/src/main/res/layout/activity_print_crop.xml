@@ -15,7 +15,9 @@
         android:text="@string/cropName"
         android:textSize="30sp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="193dp" />
 
 
     <TextView
@@ -25,41 +27,66 @@
         android:layout_marginTop="7dp"
         android:text="@string/cropHarvest"
         app:layout_constraintStart_toStartOf="@+id/nameText"
-        app:layout_constraintTop_toBottomOf="@+id/nameText" />
+        app:layout_constraintTop_toBottomOf="@+id/nameText"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="248dp" />
 
     <ListView
         android:id="@+id/seasonsText"
         android:layout_width="0dp"
-        android:layout_height="121dp"
-        android:layout_marginEnd="18dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="24dp"
+        android:layout_marginEnd="10dp"
         android:layout_marginStart="16dp"
-        android:layout_marginTop="11dp"
+        android:layout_marginTop="30dp"
         android:footerDividersEnabled="false"
         android:headerDividersEnabled="false"
+        app:layout_constraintBottom_toTopOf="@+id/addButton"
         app:layout_constraintEnd_toStartOf="@+id/climatesText"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/harvestText" />
+        app:layout_constraintTop_toTopOf="@+id/harvestText"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="278dp" />
 
     <ListView
         android:id="@+id/climatesText"
-        android:layout_width="0dp"
+        android:layout_width="184dp"
         android:layout_height="0dp"
-        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="39dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="37dp"
         android:footerDividersEnabled="false"
         android:headerDividersEnabled="false"
-        app:layout_constraintBottom_toBottomOf="@+id/seasonsText"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/seasonsText"
-        app:layout_constraintTop_toTopOf="@+id/seasonsText" />
+        app:layout_constraintTop_toBottomOf="@+id/nameText"
+        tools:layout_editor_absoluteX="184dp"
+        tools:layout_editor_absoluteY="278dp" />
 
     <TextView
         android:id="@+id/wateringText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="13dp"
-        android:layout_marginStart="15dp"
+        android:layout_marginStart="23dp"
         android:text="@string/cropWatering"
         app:layout_constraintBottom_toTopOf="@+id/climatesText"
-        app:layout_constraintStart_toStartOf="@+id/climatesText" />
+        app:layout_constraintStart_toStartOf="@+id/climatesText"
+        tools:layout_editor_absoluteX="207dp"
+        tools:layout_editor_absoluteY="246dp" />
+
+    <Button
+        android:id="@+id/addButton"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="40dp"
+        android:layout_marginEnd="23dp"
+        android:layout_marginStart="27dp"
+        android:text="ADD"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/seasonsText"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteX="27dp"
+        tools:layout_editor_absoluteY="423dp" />
 
 </android.support.constraint.ConstraintLayout>
