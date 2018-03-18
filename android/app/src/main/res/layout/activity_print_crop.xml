@@ -3,19 +3,17 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    tools:layout_editor_absoluteY="81dp">
 
     <TextView
         android:id="@+id/nameText"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="198dp"
-        android:layout_marginEnd="84dp"
-        android:layout_marginStart="49dp"
-        android:layout_marginTop="75dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="193dp"
         android:text="@string/cropName"
-        app:layout_constraintBottom_toTopOf="@+id/seasonText"
-        app:layout_constraintEnd_toStartOf="@+id/climateText"
+        android:textSize="30sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -24,35 +22,44 @@
         android:id="@+id/harvestText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="98dp"
-        android:layout_marginEnd="64dp"
+        android:layout_marginTop="7dp"
         android:text="@string/cropHarvest"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/seasonText"
-        app:layout_constraintTop_toBottomOf="@+id/climateText" />
-
-    <ListView
-        android:id="@+id/climateText"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
-        android:layout_marginBottom="150dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginTop="8dp"
-        app:layout_constraintBottom_toTopOf="@+id/harvestText"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/nameText"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <ListView
-        android:id="@+id/seasonText"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
-        android:layout_marginBottom="8dp"
-        android:layout_marginEnd="83dp"
-        android:layout_marginStart="8dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/harvestText"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/nameText"
         app:layout_constraintTop_toBottomOf="@+id/nameText" />
+
+    <ListView
+        android:id="@+id/seasonsText"
+        android:layout_width="0dp"
+        android:layout_height="121dp"
+        android:layout_marginEnd="18dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="11dp"
+        android:footerDividersEnabled="false"
+        android:headerDividersEnabled="false"
+        app:layout_constraintEnd_toStartOf="@+id/climatesText"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/harvestText" />
+
+    <ListView
+        android:id="@+id/climatesText"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="8dp"
+        android:footerDividersEnabled="false"
+        android:headerDividersEnabled="false"
+        app:layout_constraintBottom_toBottomOf="@+id/seasonsText"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/seasonsText"
+        app:layout_constraintTop_toTopOf="@+id/seasonsText" />
+
+    <TextView
+        android:id="@+id/wateringText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="13dp"
+        android:layout_marginStart="15dp"
+        android:text="@string/cropWatering"
+        app:layout_constraintBottom_toTopOf="@+id/climatesText"
+        app:layout_constraintStart_toStartOf="@+id/climatesText" />
+
 </android.support.constraint.ConstraintLayout>

@@ -25,6 +25,8 @@ public class Crop implements Serializable{
         this.imageURL = imageURL;
     }
 
+
+
     public String getName() {
         return name;
     }

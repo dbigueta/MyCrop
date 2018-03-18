@@ -2,4 +2,5 @@
     <string name="app_name">Farming</string>
     <string name="cropName">cropName</string>
     <string name="cropHarvest">cropHarvest</string>
+    <string name="cropWatering">cropWatering</string>
 </resources>
