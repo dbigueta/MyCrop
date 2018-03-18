@@ -101,7 +101,6 @@ public class printCrop extends AppCompatActivity {
         super.onStart();
         databaseMyCrop.addListenerForSingleValueEvent(new ValueEventListener(){
 
-            Bundle bundle = getIntent().getExtras();
             Crop crop = (Crop) getIntent().getSerializableExtra("crop");
             public void onDataChange(DataSnapshot dataSnapshot){
                 for (DataSnapshot itemSnapshot : dataSnapshot.getChildren()) {
@@ -115,7 +114,6 @@ public class printCrop extends AppCompatActivity {
     }
 
     private void addCrop(Crop crop){
-        boolean push = true;
         String id = databaseMyCrop.push().getKey();
 
         if(!cropAlreadyAdded) {
