@@ -1,5 +1,6 @@
 package com.verysadengineers.farming;
 
+import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.widget.GridView;
@@ -10,6 +11,8 @@ import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
 
+import java.io.InputStream;
+import java.net.URL;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -32,7 +35,7 @@ public class SelectCrop extends AppCompatActivity {
         crops = new ArrayList<>();
         gridViewCrops = findViewById(R.id.gridViewCrops);
 
-         }
+        }
 
 
     @Override
@@ -46,8 +49,10 @@ public class SelectCrop extends AppCompatActivity {
                 crops.clear();
                 for (DataSnapshot itemSnapshot : dataSnapshot.getChildren()) {
                     Crop crop = itemSnapshot.getValue(Crop.class);
-                    if(crop.getClimate().contains(bundle.get("climate")))
+                    System.out.println(crop.getClimate().get(0) + " " + bundle.get("climate") + crop.getSeason().get(0) + " " + bundle.get("season"));
+                    if((crop.getClimate().contains(bundle.get("climate"))) && (crop.getSeason().contains(bundle.get("season")))) {
                         crops.add(crop);
+                    }
                 }
 
                 CropList adapter = new CropList(SelectCrop.this, crops);
