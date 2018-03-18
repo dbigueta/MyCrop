@@ -1,6 +1,7 @@
 package com.verysadengineers.farming;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
@@ -42,6 +43,7 @@ public class printCrop extends AppCompatActivity {
 
     private DatabaseReference databaseMyCrop;
     private boolean push = false;
+    private boolean cropAlreadyAdded = false;
 
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -52,10 +54,15 @@ public class printCrop extends AppCompatActivity {
         addButton = findViewById(R.id.addButton);
 
         addButton.setOnClickListener(new View.OnClickListener(){
+
             @Override
             public void onClick(View view){
                 addCrop(crop);
+                Intent intent = new Intent(printCrop.this, ManageFarm.class);
+
+                startActivity(intent);
             }
+
 
         });
 
@@ -94,10 +101,13 @@ public class printCrop extends AppCompatActivity {
         super.onStart();
         databaseMyCrop.addListenerForSingleValueEvent(new ValueEventListener(){
 
+            Bundle bundle = getIntent().getExtras();
+            Crop crop = (Crop) getIntent().getSerializableExtra("crop");
             public void onDataChange(DataSnapshot dataSnapshot){
                 for (DataSnapshot itemSnapshot : dataSnapshot.getChildren()) {
                     Crop tempCrop = itemSnapshot.getValue(Crop.class);
-                    listCrops.add(tempCrop);
+                    if((tempCrop.getName()).equals(crop.getName()))
+                        cropAlreadyAdded = true;
                 }
             }
             public void onCancelled(DatabaseError databaseError) {}
@@ -108,14 +118,10 @@ public class printCrop extends AppCompatActivity {
         boolean push = true;
         String id = databaseMyCrop.push().getKey();
 
-        for(Crop tempCrop : listCrops){
-            if(tempCrop.getName() == crop.getName())
-                push = false;
-        }
-
-        if(push) {
+        if(!cropAlreadyAdded) {
             Crop newCrop = new Crop(crop.getName(), crop.getSeason(), crop.getClimate(), crop.getHarvestTime(), crop.getImageURL());
             databaseMyCrop.child(id).setValue(newCrop);
+            cropAlreadyAdded = true;
         }
 
     }
