@@ -35,10 +35,15 @@ public class printCrop extends AppCompatActivity {
 
     private List<String> listClimates;
     private List<String> listSeasons;
+    private List<Crop> listCrops;
 
+<<<<<<< HEAD
+=======
     private TextView bio;
 
+>>>>>>> 8c0376f71a402140d32fe56b2e73488c04c6b0ac
     private DatabaseReference databaseMyCrop;
+    private boolean push = false;
 
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -86,9 +91,34 @@ public class printCrop extends AppCompatActivity {
 
 
     }
+    @Override
+    protected void onStart() {
+        super.onStart();
+        databaseMyCrop.addListenerForSingleValueEvent(new ValueEventListener(){
+
+            public void onDataChange(DataSnapshot dataSnapshot){
+                for (DataSnapshot itemSnapshot : dataSnapshot.getChildren()) {
+                    Crop tempCrop = itemSnapshot.getValue(Crop.class);
+                    listCrops.add(tempCrop);
+                }
+            }
+            public void onCancelled(DatabaseError databaseError) {}
+        });
+    }
+
     private void addCrop(Crop crop){
+        boolean push = true;
         String id = databaseMyCrop.push().getKey();
-        Crop newCrop = new Crop( crop.getName(), crop.getSeason(), crop.getClimate(), crop.getHarvestTime(), crop.getImageURL());
-        databaseMyCrop.child(id).setValue(newCrop);
+
+        for(Crop tempCrop : listCrops){
+            if(tempCrop.getName() == crop.getName())
+                push = false;
+        }
+
+        if(push) {
+            Crop newCrop = new Crop(crop.getName(), crop.getSeason(), crop.getClimate(), crop.getHarvestTime(), crop.getImageURL());
+            databaseMyCrop.child(id).setValue(newCrop);
+        }
+
     }
 }
