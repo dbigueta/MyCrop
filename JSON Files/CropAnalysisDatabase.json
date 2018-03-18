@@ -4,7 +4,7 @@
 		"name": "Bean",
 		"harvestTime": 50, 
 		"temperature": 22,
-		"imageURL": "https://firebasestorage.googleapis.com/v0/b/missionhacks-project.appspot.com/o/Bean.png?alt=media&token=e5131423-039f-4a10-b0fe-60f908a70366",
+		"imageURL": "https://firebasestorage.googleapis.com/v0/b/missionhacks-project.appspot.com/o/29313384_2093199420706793_8104777856497745920_o.png?alt=media&token=360bc55f-693b-44e1-af22-7f898cb1d7b4",
 		"season": ["Spring", "Fall"],
 		"climate": ["Desert", "Mediterranean"]
 	},
@@ -12,7 +12,7 @@
 		"name": "Beet",
 		"harvestTime": 55, 
 		"temperature": 7,
-		"imageURL": "https://firebasestorage.googleapis.com/v0/b/missionhacks-project.appspot.com/o/Beet2.jpg?alt=media&token=12b3f895-69c4-4844-83b9-a93f2a77b181",
+		"imageURL": "https://firebasestorage.googleapis.com/v0/b/missionhacks-project.appspot.com/o/29314206_2093199410706794_8572237411185065984_o.png?alt=media&token=7c2aca64-698c-4914-877f-cf7d3d17b3a1",
 		"season": ["Spring", "Fall"],
 		"climate": ["Coastal"]
 	},
@@ -20,7 +20,7 @@
 		"name": "Bell Pepper",
 		"harvestTime": 65, 
 		"temperature": 18,
-		"imageURL": "https://firebasestorage.googleapis.com/v0/b/missionhacks-project.appspot.com/o/Watermelon.jpg?alt=media&token=49e8b442-6316-43ce-8592-39f65f0b5d5d",
+		"imageURL": "https://firebasestorage.googleapis.com/v0/b/missionhacks-project.appspot.com/o/29314444_2465838513428873_5047549478697959424_o.png?alt=media&token=ee5bcef7-cac5-492d-a678-8646755750d9",
 		"season": ["Spring", "Fall"],
 		"climate": ["Mediterranean"]
 	},
@@ -28,7 +28,7 @@
 		"name": "Broccoli",
 		"harvestTime": 60, 
 		"temperature": 12.5,
-		"imageURL": "https://firebasestorage.googleapis.com/v0/b/missionhacks-project.appspot.com/o/Broccoli.jpg?alt=media&token=b15fa491-ceae-424d-bbc5-f39bf0f55ca8",
+		"imageURL": "https://firebasestorage.googleapis.com/v0/b/missionhacks-project.appspot.com/o/29313384_2093199420706793_8104777856497745920_o.png?alt=media&token=360bc55f-693b-44e1-af22-7f898cb1d7b4",
 		"season": ["Spring", "Fall"],
 		"climate": ["Coastal", "Tropical"]
 	},
@@ -36,7 +36,7 @@
 		"name": "Butterpea",
 		"harvestTime": 60, 
 		"temperature": 24,
-		"imageURL": "https://firebasestorage.googleapis.com/v0/b/missionhacks-project.appspot.com/o/Watermelon.jpg?alt=media&token=49e8b442-6316-43ce-8592-39f65f0b5d5d",
+		"imageURL": "https://firebasestorage.googleapis.com/v0/b/missionhacks-project.appspot.com/o/29313384_2093199420706793_8104777856497745920_o.png?alt=media&token=360bc55f-693b-44e1-af22-7f898cb1d7b4",
 		"season": ["Spring", "Fall"],
 		"climate": ["Desert"]
 	},
@@ -44,7 +44,7 @@
 		"name": "Cabbage",
 		"harvestTime": 70, 
 		"temperature": 12.5,
-		"imageURL": "https://firebasestorage.googleapis.com/v0/b/missionhacks-project.appspot.com/o/Watermelon.jpg?alt=media&token=49e8b442-6316-43ce-8592-39f65f0b5d5d",
+		"imageURL": "https://firebasestorage.googleapis.com/v0/b/missionhacks-project.appspot.com/o/29339981_2465839996762058_2413916841786212352_o.png?alt=media&token=76a04405-f84d-4b2e-b4a4-8ba7ee0f685e",
 		"season": ["Spring", "Fall"],
 		"climate": ["Coastal", "Tropical"]
 	},
@@ -52,7 +52,7 @@
 		"name": "Cantaloupe",
 		"harvestTime": 80, 
 		"temperature": 20,
-		"imageURL": "https://firebasestorage.googleapis.com/v0/b/missionhacks-project.appspot.com/o/Watermelon.jpg?alt=media&token=49e8b442-6316-43ce-8592-39f65f0b5d5d",
+		"imageURL": "https://firebasestorage.googleapis.com/v0/b/missionhacks-project.appspot.com/o/29342222_2093218307371571_6174136932495261696_o.png?alt=media&token=901f5302-6933-42ba-9b21-0336935b021d",
 		"season": ["Spring"],
 		"climate": ["Desert", "Mediterranean"]
 	},
@@ -60,7 +60,7 @@
 		"name": "Carrot",
 		"harvestTime": 70, 
 		"temperature": 7,
-		"imageURL": "https://firebasestorage.googleapis.com/v0/b/missionhacks-project.appspot.com/o/Carrot.jpg?alt=media&token=1ad918e5-8110-4038-8dca-88e838eceafa",
+		"imageURL": "https://firebasestorage.googleapis.com/v0/b/missionhacks-project.appspot.com/o/29313384_2093199420706793_8104777856497745920_o.png?alt=media&token=360bc55f-693b-44e1-af22-7f898cb1d7b4",
 		"season": ["Spring", "Fall"],
 		"climate": ["Coastal"]
 	},
@@ -68,7 +68,7 @@
 		"name": "Cauliflower",
 		"harvestTime": 60, 
 		"temperature": 12.5,
-		"imageURL": "https://firebasestorage.googleapis.com/v0/b/missionhacks-project.appspot.com/o/Watermelon.jpg?alt=media&token=49e8b442-6316-43ce-8592-39f65f0b5d5d",
+		"imageURL": "https://firebasestorage.googleapis.com/v0/b/missionhacks-project.appspot.com/o/29313384_2093199420706793_8104777856497745920_o.png?alt=media&token=360bc55f-693b-44e1-af22-7f898cb1d7b4",
 		"season": ["Spring", "Fall"],
 		"climate": ["Coastal", "Tropical"]
 	},
@@ -76,7 +76,7 @@
 		"name": "Celery",
 		"harvestTime": 130, 
 		"temperature": 22,
-		"imageURL": "https://firebasestorage.googleapis.com/v0/b/missionhacks-project.appspot.com/o/Watermelon.jpg?alt=media&token=49e8b442-6316-43ce-8592-39f65f0b5d5d",
+		"imageURL": "https://firebasestorage.googleapis.com/v0/b/missionhacks-project.appspot.com/o/29313384_2093199420706793_8104777856497745920_o.png?alt=media&token=360bc55f-693b-44e1-af22-7f898cb1d7b4",
 		"season": ["Spring", "Fall"],
 		"climate": ["Desert", "Mediterranean"]
 	},
@@ -84,7 +84,7 @@
 		"name": "Cherry Tomato",
 		"harvestTime": 70, 
 		"temperature": 15,
-		"imageURL": "https://firebasestorage.googleapis.com/v0/b/missionhacks-project.appspot.com/o/Watermelon.jpg?alt=media&token=49e8b442-6316-43ce-8592-39f65f0b5d5d",
+		"imageURL": "https://firebasestorage.googleapis.com/v0/b/missionhacks-project.appspot.com/o/29313384_2093199420706793_8104777856497745920_o.png?alt=media&token=360bc55f-693b-44e1-af22-7f898cb1d7b4",
 		"season": ["Spring", "Fall"],
 		"climate": ["Mediterranean"]
 	},
@@ -92,7 +92,7 @@
 		"name": "Collard",
 		"harvestTime": 55, 
 		"temperature": 11,
-		"imageURL": "https://firebasestorage.googleapis.com/v0/b/missionhacks-project.appspot.com/o/Watermelon.jpg?alt=media&token=49e8b442-6316-43ce-8592-39f65f0b5d5d",
+		"imageURL": "https://firebasestorage.googleapis.com/v0/b/missionhacks-project.appspot.com/o/29313384_2093199420706793_8104777856497745920_o.png?alt=media&token=360bc55f-693b-44e1-af22-7f898cb1d7b4",
 		"season": ["Spring", "Fall"],
 		"climate": ["Coastal", "Tropical"]
 	},
@@ -100,7 +100,7 @@
 		"name": "Corn",
 		"harvestTime": 65, 
 		"temperature": 13,
-		"imageURL": "https://firebasestorage.googleapis.com/v0/b/missionhacks-project.appspot.com/o/Corn.jpg?alt=media&token=b4527a0d-3176-4f58-b534-2d01e9f710a3",
+		"imageURL": "https://firebasestorage.googleapis.com/v0/b/missionhacks-project.appspot.com/o/29313384_2093199420706793_8104777856497745920_o.png?alt=media&token=360bc55f-693b-44e1-af22-7f898cb1d7b4",
 		"season": ["Spring"],
 		"climate": ["Coastal", "Tropical"]
 	},
@@ -108,7 +108,7 @@
 		"name": "Cucumber",
 		"harvestTime": 50, 
 		"temperature": 18,
-		"imageURL": "https://firebasestorage.googleapis.com/v0/b/missionhacks-project.appspot.com/o/Watermelon.jpg?alt=media&token=49e8b442-6316-43ce-8592-39f65f0b5d5d",
+		"imageURL": "https://firebasestorage.googleapis.com/v0/b/missionhacks-project.appspot.com/o/29313384_2093199420706793_8104777856497745920_o.png?alt=media&token=360bc55f-693b-44e1-af22-7f898cb1d7b4",
 		"season": ["Spring", "Fall"],
 		"climate": ["Mediterranean"]
 	},
@@ -116,7 +116,7 @@
 		"name": "Eggplant",
 		"harvestTime": 75, 
 		"temperature": 24,
-		"imageURL": "https://firebasestorage.googleapis.com/v0/b/missionhacks-project.appspot.com/o/Watermelon.jpg?alt=media&token=49e8b442-6316-43ce-8592-39f65f0b5d5d",
+		"imageURL": "https://firebasestorage.googleapis.com/v0/b/missionhacks-project.appspot.com/o/29313384_2093199420706793_8104777856497745920_o.png?alt=media&token=360bc55f-693b-44e1-af22-7f898cb1d7b4",
 		"season": ["Spring", "Fall"],
 		"climate": ["Desert"]
 	},
@@ -124,7 +124,7 @@
 		"name": "Garden Pea",
 		"harvestTime": 60, 
 		"temperature": 7,
-		"imageURL": "https://firebasestorage.googleapis.com/v0/b/missionhacks-project.appspot.com/o/Watermelon.jpg?alt=media&token=49e8b442-6316-43ce-8592-39f65f0b5d5d",
+		"imageURL": "https://firebasestorage.googleapis.com/v0/b/missionhacks-project.appspot.com/o/29313384_2093199420706793_8104777856497745920_o.png?alt=media&token=360bc55f-693b-44e1-af22-7f898cb1d7b4",
 		"season": ["Spring"],
 		"climate": ["Coastal"]
 	},
@@ -132,7 +132,7 @@
 		"name": "Green Onion",
 		"harvestTime": 60, 
 		"temperature": 22.5,
-		"imageURL": "https://firebasestorage.googleapis.com/v0/b/missionhacks-project.appspot.com/o/Watermelon.jpg?alt=media&token=49e8b442-6316-43ce-8592-39f65f0b5d5d",
+		"imageURL": "https://firebasestorage.googleapis.com/v0/b/missionhacks-project.appspot.com/o/29313384_2093199420706793_8104777856497745920_o.png?alt=media&token=360bc55f-693b-44e1-af22-7f898cb1d7b4",
 		"season": ["Spring", "Fall"],
 		"climate": ["Desert", "Mediterranean"]
 	},
@@ -140,7 +140,7 @@
 		"name": "Hot Pepper",
 		"harvestTime": 65, 
 		"temperature": 18,
-		"imageURL": "https://firebasestorage.googleapis.com/v0/b/missionhacks-project.appspot.com/o/Watermelon.jpg?alt=media&token=49e8b442-6316-43ce-8592-39f65f0b5d5d",
+		"imageURL": "https://firebasestorage.googleapis.com/v0/b/missionhacks-project.appspot.com/o/29261992_2093199407373461_8167915138469330944_o.png?alt=media&token=d0170d32-a217-4e18-b1e8-cee00e0b314e",
 		"season": ["Spring"],
 		"climate": ["Mediterranean"]
 	},
@@ -156,7 +156,7 @@
 		"name": "Lettuce",
 		"harvestTime": 60, 
 		"temperature": 7,
-		"imageURL": "https://firebasestorage.googleapis.com/v0/b/missionhacks-project.appspot.com/o/Watermelon.jpg?alt=media&token=49e8b442-6316-43ce-8592-39f65f0b5d5d",
+		"imageURL": "https://firebasestorage.googleapis.com/v0/b/missionhacks-project.appspot.com/o/29313384_2093199420706793_8104777856497745920_o.png?alt=media&token=360bc55f-693b-44e1-af22-7f898cb1d7b4",
 		"season": ["Spring", "Fall"],
 		"climate": ["Coastal"]
 	},
@@ -164,7 +164,7 @@
 		"name": "Lima Bean",
 		"harvestTime": 65, 
 		"temperature": 18.5,
-		"imageURL": "https://firebasestorage.googleapis.com/v0/b/missionhacks-project.appspot.com/o/Watermelon.jpg?alt=media&token=49e8b442-6316-43ce-8592-39f65f0b5d5d",
+		"imageURL": "https://firebasestorage.googleapis.com/v0/b/missionhacks-project.appspot.com/o/29313384_2093199420706793_8104777856497745920_o.png?alt=media&token=360bc55f-693b-44e1-af22-7f898cb1d7b4",
 		"season": ["Spring", "Fall"],
 		"climate": ["Mediterranean"]
 	},
@@ -172,7 +172,7 @@
 		"name": "Mustard",
 		"harvestTime": 40, 
 		"temperature": 18,
-		"imageURL": "https://firebasestorage.googleapis.com/v0/b/missionhacks-project.appspot.com/o/Watermelon.jpg?alt=media&token=49e8b442-6316-43ce-8592-39f65f0b5d5d",
+		"imageURL": "https://firebasestorage.googleapis.com/v0/b/missionhacks-project.appspot.com/o/29313384_2093199420706793_8104777856497745920_o.png?alt=media&token=360bc55f-693b-44e1-af22-7f898cb1d7b4",
 		"season": ["Spring", "Fall"],
 		"climate": ["Mediterranean"]
 	},
@@ -180,7 +180,7 @@
 		"name": "Okra",
 		"harvestTime": 55, 
 		"temperature": 23.5,
-		"imageURL": "https://firebasestorage.googleapis.com/v0/b/missionhacks-project.appspot.com/o/Watermelon.jpg?alt=media&token=49e8b442-6316-43ce-8592-39f65f0b5d5d",
+		"imageURL": "https://firebasestorage.googleapis.com/v0/b/missionhacks-project.appspot.com/o/29313384_2093199420706793_8104777856497745920_o.png?alt=media&token=360bc55f-693b-44e1-af22-7f898cb1d7b4",
 		"season": ["Spring", "Fall"],
 		"climate": ["Desert"]
 	},
@@ -188,7 +188,7 @@
 		"name": "Onion",
 		"harvestTime": 100, 
 		"temperature": 22.5,
-		"imageURL": "https://firebasestorage.googleapis.com/v0/b/missionhacks-project.appspot.com/o/Watermelon.jpg?alt=media&token=49e8b442-6316-43ce-8592-39f65f0b5d5d",
+		"imageURL": "https://firebasestorage.googleapis.com/v0/b/missionhacks-project.appspot.com/o/29313384_2093199420706793_8104777856497745920_o.png?alt=media&token=360bc55f-693b-44e1-af22-7f898cb1d7b4",
 		"season": ["Spring", "Fall"],
 		"climate": ["Desert", "Mediterranean"]
 	},
@@ -196,7 +196,7 @@
 		"name": "Parsley",
 		"harvestTime": 70, 
 		"temperature": 7,
-		"imageURL": "https://firebasestorage.googleapis.com/v0/b/missionhacks-project.appspot.com/o/Watermelon.jpg?alt=media&token=49e8b442-6316-43ce-8592-39f65f0b5d5d",
+		"imageURL": "https://firebasestorage.googleapis.com/v0/b/missionhacks-project.appspot.com/o/29313384_2093199420706793_8104777856497745920_o.png?alt=media&token=360bc55f-693b-44e1-af22-7f898cb1d7b4",
 		"season": ["Spring"],
 		"climate": ["Coastal"]
 	},
@@ -204,7 +204,7 @@
 		"name": "Parsnip",
 		"harvestTime": 120, 
 		"temperature": 15.5,
-		"imageURL": "https://firebasestorage.googleapis.com/v0/b/missionhacks-project.appspot.com/o/Watermelon.jpg?alt=media&token=49e8b442-6316-43ce-8592-39f65f0b5d5d",
+		"imageURL": "https://firebasestorage.googleapis.com/v0/b/missionhacks-project.appspot.com/o/29313384_2093199420706793_8104777856497745920_o.png?alt=media&token=360bc55f-693b-44e1-af22-7f898cb1d7b4",
 		"season": ["Spring"],
 		"climate": ["Tropical", "Mediterranean"]
 	},
@@ -212,7 +212,7 @@
 		"name": "Pod Pea",
 		"harvestTime": 60, 
 		"temperature": 7,
-		"imageURL": "https://firebasestorage.googleapis.com/v0/b/missionhacks-project.appspot.com/o/Watermelon.jpg?alt=media&token=49e8b442-6316-43ce-8592-39f65f0b5d5d",
+		"imageURL": "https://firebasestorage.googleapis.com/v0/b/missionhacks-project.appspot.com/o/29313384_2093199420706793_8104777856497745920_o.png?alt=media&token=360bc55f-693b-44e1-af22-7f898cb1d7b4",
 		"season": ["Spring"],
 		"climate": ["Coastal"]
 	},
@@ -220,7 +220,7 @@
 		"name": "Potato",
 		"harvestTime": 70, 
 		"temperature": 17,
-		"imageURL": "https://firebasestorage.googleapis.com/v0/b/missionhacks-project.appspot.com/o/Watermelon.jpg?alt=media&token=49e8b442-6316-43ce-8592-39f65f0b5d5d",
+		"imageURL": "https://firebasestorage.googleapis.com/v0/b/missionhacks-project.appspot.com/o/29313384_2093199420706793_8104777856497745920_o.png?alt=media&token=360bc55f-693b-44e1-af22-7f898cb1d7b4",
 		"season": ["Spring"],
 		"climate": ["Mediterranean"]
 	},
@@ -228,7 +228,7 @@
 		"name": "Pumpkin",
 		"harvestTime": 85, 
 		"temperature": 24,
-		"imageURL": "https://firebasestorage.googleapis.com/v0/b/missionhacks-project.appspot.com/o/Watermelon.jpg?alt=media&token=49e8b442-6316-43ce-8592-39f65f0b5d5d",
+		"imageURL": "https://firebasestorage.googleapis.com/v0/b/missionhacks-project.appspot.com/o/29313384_2093199420706793_8104777856497745920_o.png?alt=media&token=360bc55f-693b-44e1-af22-7f898cb1d7b4",
 		"season": ["Spring"],
 		"climate": ["Desert"]
 	},
@@ -236,7 +236,7 @@
 		"name": "Radish",
 		"harvestTime": 25, 
 		"temperature": 7,
-		"imageURL": "https://firebasestorage.googleapis.com/v0/b/missionhacks-project.appspot.com/o/Watermelon.jpg?alt=media&token=49e8b442-6316-43ce-8592-39f65f0b5d5d",
+		"imageURL": "https://firebasestorage.googleapis.com/v0/b/missionhacks-project.appspot.com/o/29313384_2093199420706793_8104777856497745920_o.png?alt=media&token=360bc55f-693b-44e1-af22-7f898cb1d7b4",
 		"season": ["Spring", "Fall"],
 		"climate": ["Coastal"]
 	},
@@ -244,7 +244,7 @@
 		"name": "Red Onion",
 		"harvestTime": 100, 
 		"temperature": 22.5,
-		"imageURL": "https://firebasestorage.googleapis.com/v0/b/missionhacks-project.appspot.com/o/Watermelon.jpg?alt=media&token=49e8b442-6316-43ce-8592-39f65f0b5d5d",
+		"imageURL": "https://firebasestorage.googleapis.com/v0/b/missionhacks-project.appspot.com/o/29313384_2093199420706793_8104777856497745920_o.png?alt=media&token=360bc55f-693b-44e1-af22-7f898cb1d7b4",
 		"season": ["Spring", "Fall"],
 		"climate": ["Desert", "Mediterranean"]
 	},
@@ -252,7 +252,7 @@
 		"name": "Spinach",
 		"harvestTime": 40, 
 		"temperature": 7,
-		"imageURL": "https://firebasestorage.googleapis.com/v0/b/missionhacks-project.appspot.com/o/Watermelon.jpg?alt=media&token=49e8b442-6316-43ce-8592-39f65f0b5d5d",
+		"imageURL": "https://firebasestorage.googleapis.com/v0/b/missionhacks-project.appspot.com/o/29313384_2093199420706793_8104777856497745920_o.png?alt=media&token=360bc55f-693b-44e1-af22-7f898cb1d7b4",
 		"season": ["Spring", "Fall"],
 		"climate": ["Coastal"]
 	},
@@ -260,7 +260,7 @@
 		"name": "Squash",
 		"harvestTime": 85, 
 		"temperature": 21,
-		"imageURL": "https://firebasestorage.googleapis.com/v0/b/missionhacks-project.appspot.com/o/Watermelon.jpg?alt=media&token=49e8b442-6316-43ce-8592-39f65f0b5d5d",
+		"imageURL": "https://firebasestorage.googleapis.com/v0/b/missionhacks-project.appspot.com/o/29313384_2093199420706793_8104777856497745920_o.png?alt=media&token=360bc55f-693b-44e1-af22-7f898cb1d7b4",
 		"season": ["Spring"],
 		"climate": ["Desert", "Mediterranean"]
 	},
@@ -268,7 +268,7 @@
 		"name": "Tomato",
 		"harvestTime": 70, 
 		"temperature": 13,
-		"imageURL": "https://firebasestorage.googleapis.com/v0/b/missionhacks-project.appspot.com/o/Tomato.jpg?alt=media&token=6287d4ca-d013-42b9-994e-c065dc7ee94e",
+		"imageURL": "https://firebasestorage.googleapis.com/v0/b/missionhacks-project.appspot.com/o/29313384_2093199420706793_8104777856497745920_o.png?alt=media&token=360bc55f-693b-44e1-af22-7f898cb1d7b4",
 		"season": ["Spring", "Fall"],
 		"climate": ["Coastal", "Tropical"]
 	},
@@ -276,7 +276,7 @@
 		"name": "Turnip",
 		"harvestTime": 40, 
 		"temperature": 10,
-		"imageURL": "https://firebasestorage.googleapis.com/v0/b/missionhacks-project.appspot.com/o/Watermelon.jpg?alt=media&token=49e8b442-6316-43ce-8592-39f65f0b5d5d",
+		"imageURL": "https://firebasestorage.googleapis.com/v0/b/missionhacks-project.appspot.com/o/29313384_2093199420706793_8104777856497745920_o.png?alt=media&token=360bc55f-693b-44e1-af22-7f898cb1d7b4",
 		"season": ["Spring", "Fall"],
 		"climate": ["Coastal"]
 	},
@@ -284,7 +284,7 @@
 		"name": "Watermelon",
 		"harvestTime": 80, 
 		"temperature": 22,
-		"imageURL": "https://firebasestorage.googleapis.com/v0/b/missionhacks-project.appspot.com/o/Watermelon.jpg?alt=media&token=49e8b442-6316-43ce-8592-39f65f0b5d5d",
+		"imageURL": "https://firebasestorage.googleapis.com/v0/b/missionhacks-project.appspot.com/o/29313384_2093199420706793_8104777856497745920_o.png?alt=media&token=360bc55f-693b-44e1-af22-7f898cb1d7b4",
 		"season": ["Spring"],
 		"climate": ["Desert", "Mediterranean"]
 	},
@@ -292,7 +292,7 @@
 		"name": "Yam",
 		"harvestTime": 90, 
 		"temperature": 22.5,
-		"imageURL": "https://firebasestorage.googleapis.com/v0/b/missionhacks-project.appspot.com/o/Watermelon.jpg?alt=media&token=49e8b442-6316-43ce-8592-39f65f0b5d5d",
+		"imageURL": "https://firebasestorage.googleapis.com/v0/b/missionhacks-project.appspot.com/o/29313384_2093199420706793_8104777856497745920_o.png?alt=media&token=360bc55f-693b-44e1-af22-7f898cb1d7b4",
 		"season": ["Spring"],
 		"climate": ["Desert", "Mediterranean"]
 	},
@@ -300,7 +300,7 @@
 		"name": "Zucchini",
 		"harvestTime": 40, 
 		"temperature": 15.5,
-		"imageURL": "https://firebasestorage.googleapis.com/v0/b/missionhacks-project.appspot.com/o/Watermelon.jpg?alt=media&token=49e8b442-6316-43ce-8592-39f65f0b5d5d",
+		"imageURL": "https://firebasestorage.googleapis.com/v0/b/missionhacks-project.appspot.com/o/29313384_2093199420706793_8104777856497745920_o.png?alt=media&token=360bc55f-693b-44e1-af22-7f898cb1d7b4",
 		"season": ["Spring", "Fall"],
 		"climate": ["Tropical"]
 	}
