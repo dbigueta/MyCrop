@@ -1,5 +1,7 @@
 package com.verysadengineers.farming;
 
+import android.widget.ListView;
+
 import java.io.Serializable;
 import java.util.List;
 
@@ -11,6 +13,9 @@ public class Crop implements Serializable{
     private String name;
     private List<String> season;
     private List<String> climate;
+    private String tips;
+    private List<String> pests;
+    private List<String> dishes;
     private int waterTimer; //arbitiary
     private int currentTimeAlive = 0;
     private int harvestTime;
