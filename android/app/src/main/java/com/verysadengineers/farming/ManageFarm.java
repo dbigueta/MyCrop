@@ -4,6 +4,8 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
+import android.widget.GridLayout;
+import android.widget.GridView;
 import android.widget.ListView;
 
 import com.google.firebase.database.DataSnapshot;
@@ -23,7 +25,7 @@ public class ManageFarm extends AppCompatActivity {
 
     private DatabaseReference databaseMyCrop;
     private List<Crop> myCrops;
-    private ListView listViewCrops;
+    private GridView listViewCrops;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {

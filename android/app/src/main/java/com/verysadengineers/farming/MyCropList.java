@@ -50,7 +50,7 @@ public class MyCropList extends ArrayAdapter<Crop> {
         LayoutInflater layoutInflater = context.getLayoutInflater();
 
         @SuppressLint("ViewHolder")
-        View listViewItem = layoutInflater.inflate(R.layout.grid_layout_season, null, true);
+        View listViewItem = layoutInflater.inflate(R.layout.grid_layout_mycrop, null, true);
 
         Crop crop = myCrops.get(position);
 
