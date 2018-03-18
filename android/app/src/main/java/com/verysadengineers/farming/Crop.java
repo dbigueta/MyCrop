@@ -64,7 +64,7 @@ public class Crop implements Serializable{
     }
 
     public int getWaterTimer() {
-        return waterTimer;
+        return 72;
     }
 
     public int getHarvestTime() {

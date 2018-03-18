@@ -117,7 +117,8 @@ public class printCrop extends AppCompatActivity {
         String id = databaseMyCrop.push().getKey();
 
         if(!cropAlreadyAdded) {
-            Crop newCrop = new Crop(crop.getName(), crop.getSeason(), crop.getClimate(), crop.getHarvestTime(), crop.getImageURL());
+            //public Crop(String name, List<String> season, List<String> climate, String tips, List<String> pests, List<String> dishes, int harvestTime, String imageURL)
+            Crop newCrop = new Crop(crop.getName(), crop.getSeason(), crop.getClimate(), crop.getTips(), crop.getPests(), crop.getDishes(), crop.getHarvestTime(), crop.getImageURL());
             databaseMyCrop.child(id).setValue(newCrop);
             cropAlreadyAdded = true;
         }

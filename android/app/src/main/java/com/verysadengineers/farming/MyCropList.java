@@ -2,6 +2,8 @@ package com.verysadengineers.farming;
 
 import android.annotation.SuppressLint;
 import android.app.Activity;
+import android.graphics.Bitmap;
+import android.graphics.BitmapFactory;
 import android.graphics.drawable.Drawable;
 import android.os.Build;
 import android.support.annotation.NonNull;
@@ -13,7 +15,11 @@ import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
 import android.widget.ImageView;
 import android.widget.ListView;
+import android.widget.TextView;
 
+import java.io.InputStream;
+import java.net.HttpURLConnection;
+import java.net.URL;
 import java.util.List;
 
 /**
@@ -50,10 +56,71 @@ public class MyCropList extends ArrayAdapter<Crop> {
         LayoutInflater layoutInflater = context.getLayoutInflater();
 
         @SuppressLint("ViewHolder")
-        View listViewItem = layoutInflater.inflate(R.layout.grid_layout_mycrop, null, true);
+        View gridViewItem = layoutInflater.inflate(R.layout.grid_layout_mycrop, null, true);
+
+        ImageView imageViewItem = gridViewItem.findViewById(R.id.imageViewItem);
 
         Crop crop = myCrops.get(position);
 
-        return listViewItem;
+        Bitmap bitmap = getBitmapFromURL(crop.getImageURL());
+
+        imageViewItem.setImageBitmap(bitmap);
+
+        TextView textViewHarvest = gridViewItem.findViewById(R.id.textViewHarvest);
+        TextView textViewWater = gridViewItem.findViewById(R.id.textViewWater);
+
+        textViewHarvest.setText("Harvest within "+crop.getHarvestTime()+" days");
+        textViewWater.setText("Needs watering within "+crop.getWaterTimer()+" hours");
+
+        return gridViewItem;
+    }
+
+    public Bitmap getBitmapFromURL(String src){
+        try {
+            URL url = new URL(src);
+            HttpURLConnection connection = (HttpURLConnection) url.openConnection();
+            connection.setDoInput(true);
+            connection.connect();
+            InputStream input = connection.getInputStream();
+            Bitmap myBitmap = BitmapFactory.decodeStream(input);
+            return myBitmap;
+
+        } catch (Exception e) {
+            e.printStackTrace();;
+            return null;
+        }
     }
 }
+/*
+        LayoutInflater layoutInflater = context.getLayoutInflater();
+
+        @SuppressLint("ViewHolder")
+        View gridViewItem = layoutInflater.inflate(R.layout.grid_layout_mycrop, null, true);
+
+        ImageView imageViewItem = gridViewItem.findViewById(R.id.imageViewItem);
+
+        Crop crop = crops.get(position);
+
+        Bitmap bitmap = getBitmapFromURL(crop.getImageURL());
+
+        imageViewItem.setImageBitmap(bitmap);
+
+        return gridViewItem;
+    }
+
+    public Bitmap getBitmapFromURL(String src){
+        try {
+            URL url = new URL(src);
+            HttpURLConnection connection = (HttpURLConnection) url.openConnection();
+            connection.setDoInput(true);
+            connection.connect();
+            InputStream input = connection.getInputStream();
+            Bitmap myBitmap = BitmapFactory.decodeStream(input);
+            return myBitmap;
+
+        } catch (Exception e) {
+            e.printStackTrace();;
+            return null;
+        }
+    }
+ */

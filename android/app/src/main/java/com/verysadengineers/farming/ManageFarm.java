@@ -35,7 +35,7 @@ public class ManageFarm extends AppCompatActivity {
 
         myCrops = new ArrayList<>();
         databaseMyCrop = FirebaseDatabase.getInstance().getReference("mycrop");
-        listViewCrops = findViewById(R.id.listViewMyCrops);
+        listViewCrops = findViewById(R.id.gridViewMyCrops);
 
     }
 
