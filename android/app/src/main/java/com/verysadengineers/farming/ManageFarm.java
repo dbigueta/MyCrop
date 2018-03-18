@@ -12,6 +12,7 @@ import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
 
+import java.util.ArrayList;
 import java.util.List;
 
 /**
@@ -30,6 +31,7 @@ public class ManageFarm extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_manage_farm);
 
+        myCrops = new ArrayList<>();
         databaseMyCrop = FirebaseDatabase.getInstance().getReference("mycrop");
         listViewCrops = findViewById(R.id.listViewMyCrops);
 
