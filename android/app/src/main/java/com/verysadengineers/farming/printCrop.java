@@ -38,15 +38,13 @@ public class printCrop extends AppCompatActivity {
 
     private TextView bio;
 
-    private DatabaseReference databaseDescription;
     private DatabaseReference databaseMyCrop;
 
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_print_crop);
         final Crop crop = (Crop) getIntent().getSerializableExtra("crop");
-        databaseDescription = FirebaseDatabase.getInstance().getReference("description");
-        databaseDescription = FirebaseDatabase.getInstance().getReference("mycrop");
+        databaseMyCrop = FirebaseDatabase.getInstance().getReference("mycrop");
 
         addButton = findViewById(R.id.addButton);
 
