@@ -37,11 +37,9 @@ public class printCrop extends AppCompatActivity {
     private List<String> listSeasons;
     private List<Crop> listCrops;
 
-<<<<<<< HEAD
-=======
+
     private TextView bio;
 
->>>>>>> 8c0376f71a402140d32fe56b2e73488c04c6b0ac
     private DatabaseReference databaseMyCrop;
     private boolean push = false;
 
