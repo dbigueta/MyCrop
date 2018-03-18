@@ -12,17 +12,22 @@
         android:theme="@style/Theme.AppCompat">
         android:
         <meta-data android:value="4c5e2e1b39084c2705b31319ff76d4e9" android:name="api_key"></meta-data>
-        <activity android:name="com.verysadengineers.farming.ManageFarm">
+        <activity android:name="com.verysadengineers.farming.ManageFarm"
+            android:label="Manage Crops">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.verysadengineers.farming.SelectClimate"/>
-        <activity android:name="com.verysadengineers.farming.SelectCrop" />
-        <activity android:name="com.verysadengineers.farming.SelectSeason" />
-        <activity android:name="com.verysadengineers.farming.printCrop" />
+        <activity android:name="com.verysadengineers.farming.SelectClimate"
+            android:label="Select your Region"/>
+        <activity android:name="com.verysadengineers.farming.SelectSeason"
+            android:label="Select your Season"/>
+        <activity android:name="com.verysadengineers.farming.SelectCrop"
+            android:label="Pick a Crop"/>
+        <activity android:name="com.verysadengineers.farming.printCrop"
+            android:label="Crop Description"/>
     </application>
 
 </manifest>

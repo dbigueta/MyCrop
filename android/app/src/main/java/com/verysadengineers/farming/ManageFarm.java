@@ -33,6 +33,8 @@ public class ManageFarm extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_manage_farm);
 
+      ///
+
         myCrops = new ArrayList<>();
         databaseMyCrop = FirebaseDatabase.getInstance().getReference("mycrop");
         listViewCrops = findViewById(R.id.gridViewMyCrops);
