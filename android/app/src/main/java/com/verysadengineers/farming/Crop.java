@@ -22,10 +22,13 @@ public class Crop implements Serializable{
     private String imageURL;
 
     public Crop() {}
-    public Crop(String name, List<String> season, List<String> climate, int harvestTime, String imageURL){
+    public Crop(String name, List<String> season, List<String> climate, String tips, List<String> pests, List<String> dishes, int harvestTime, String imageURL){
         this.name = name;
         this.season = season;
         this.climate = climate;
+        this.tips = tips;
+        this.pests = pests;
+        this.dishes = dishes;
         this.harvestTime = harvestTime;
         this.imageURL = imageURL;
     }
@@ -34,6 +37,22 @@ public class Crop implements Serializable{
 
     public String getName() {
         return name;
+    }
+
+    public String getTips() {
+        return tips;
+    }
+
+    public List<String> getPests() {
+        return pests;
+    }
+
+    public List<String> getDishes() {
+        return dishes;
+    }
+
+    public int getCurrentTimeAlive() {
+        return currentTimeAlive;
     }
 
     public List<String> getSeason() {
