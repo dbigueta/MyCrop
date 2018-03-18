@@ -32,11 +32,12 @@ public class printCrop extends AppCompatActivity {
     private ListView cropClimates;
     private ListView cropSeasons;
 
+
     private Button addButton;
 
     private List<String> listClimates;
     private List<String> listSeasons;
-    private List<Crop> listCrops;
+
 
 
     private TextView bio;
@@ -78,8 +79,11 @@ public class printCrop extends AppCompatActivity {
         cropClimates = findViewById(R.id.climatesText);
         cropSeasons = findViewById(R.id.seasonsText);
 
+
+
         listClimates = new ArrayList<>();
         listSeasons = new ArrayList<>();
+
 
         for(String temp: crop.getClimate()){
             String climate = temp;
@@ -89,6 +93,7 @@ public class printCrop extends AppCompatActivity {
             String season = temp;
             listSeasons.add(season);
         }
+
         ClimateList climateAdapter = new ClimateList(printCrop.this, listClimates);
         final ArrayAdapter<String> seasonAdapter = new ArrayAdapter<>( this, android.R.layout.simple_list_item_1, listSeasons);
         cropClimates.setAdapter(climateAdapter);

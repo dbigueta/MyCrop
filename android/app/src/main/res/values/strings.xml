@@ -3,4 +3,5 @@
     <string name="cropName">cropName</string>
     <string name="cropHarvest">cropHarvest</string>
     <string name="cropWatering">cropWatering</string>
+    <string name="cropTips">cropsTips</string>
 </resources>
