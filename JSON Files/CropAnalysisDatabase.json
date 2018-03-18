@@ -306,6 +306,344 @@
 	}
 	],
 	
+	"description": [
+	{
+		"Broccoli": [
+		{
+			"tips": 
+			[
+				"Seed 85 to 100 days before your average first fall frost",
+				"Grows best when soil is moist",
+				"Do not wet the head of the broccoli when watering"
+			],
+			
+			"pests": ["Caterpillars", "Cabbageworms", "Whiteflies"],
+			"dishes": ["Beef and Broccoli", "Broccoli Salad", "Broccoli Soup"]
+		}
+		],
+		
+		"Beet": [
+		{
+			"tips":
+			[
+				"Best to plant during cool weather",
+				"Plant seeds 1 to 2 inches apart",
+				"Mulch and water well, best growth when soil has plenty of moisture"
+			],
+			
+			"pests": ["Flea Beetles", "Leaf Hoppers", "Mexican Bean Beetles"],
+			"dishes": ["Spicy Beet Bites", "Cumin Roasted Beets, Kale and Feta Salad", "Baked Beet Chips"]
+		}
+		],
+		
+		"Eggplant": [
+		{
+			"tips":
+			[
+				"Love warmth and grows best in very sunny, well-draining locations",
+				"Grow into tall, angular plants so they should be spaced 24 to 36 inches apart",
+				"Be sure to keep well watered or they will be small and bitter"
+			],
+			
+			"pests": ["Flea Beetles", "Tomato Hornworms", "Grasshoppers"],
+			"dishes": ["Eggplant Parmesan", "Eggplant Lasagna", "BBQ & Grilled Eggplant"]
+		}
+		],
+		
+		"Bell Pepper": [
+		{
+			"tips":
+			[
+				"May need to be watered every day because they are extremely heat sensitive",
+				"If possible, support plant growth with cages or stakes to avoid bending",
+				"For larger fruit, spray plants with a solution of Epsom salts and water"
+			],
+			
+			"pests": ["Cutworms", "Tomato Hornworms", "Root-Knot Nematodes"],
+			"dishes": ["Ratatouille", "Grilled Pepper and Red-Onion Pizzas", "Toasted Peppers with Spaghetti Stuffing"]
+		}
+		],
+		
+		"Corn": [
+		{
+			"tips":
+			[
+				"Need good quality soil, work with aged manure or compost",
+				"Make sure soil temperature is above 60 degrees fahrenheit for successful germination",
+				"Water well at planting time"
+			],
+			
+			"pests": ["Seedcord Maggot", "Sugarcane Beetle", "Western Bean Cutworm"],
+			"dishes": ["Corn and Tomato Pasta Salad", "Fresh Corn Risotto with Wild Rice and Pancetta", "Mexican Corn Salsa"]
+		}
+		],
+		
+		"Bean": [
+		{
+			"tips": [],
+			"pests": [],
+			"dishes": []
+		}
+		],
+		
+		"Butterpea": [
+		{
+			"tips": [],
+			"pests": [],
+			"dishes": []
+		}
+		],
+		
+		"Cabbage": [
+		{
+			"tips": [],
+			"pests": [],
+			"dishes": []
+		}
+		],
+		
+		"Cantaloupe": [
+		{
+			"tips": [],
+			"pests": [],
+			"dishes": []
+		}
+		],
+		
+		"Carrot": [
+		{
+			"tips": [],
+			"pests": [],
+			"dishes": []
+		}
+		],
+		
+		"Cauliflower": [
+		{
+			"tips": [],
+			"pests": [],
+			"dishes": []
+		}
+		],
+		
+		"Celery": [
+		{
+			"tips": [],
+			"pests": [],
+			"dishes": []
+		}
+		],
+		
+		"Cherry Tomato": [
+		{
+			"tips": [],
+			"pests": [],
+			"dishes": []
+		}
+		],
+		
+		"Collard": [
+		{
+			"tips": [],
+			"pests": [],
+			"dishes": []
+		}
+		],
+		
+		"Cucumber": [
+		{
+			"tips": [],
+			"pests": [],
+			"dishes": []
+		}
+		],
+		
+		"Garden Pea": [
+		{
+			"tips": [],
+			"pests": [],
+			"dishes": []
+		}
+		],
+		
+		"Green Onion": [
+		{
+			"tips": [],
+			"pests": [],
+			"dishes": []
+		}
+		],
+	
+		"Hot Pepper": [
+		{
+			"tips": [],
+			"pests": [],
+			"dishes": []
+		}
+		],
+		
+		"Kale": [
+		{
+			"tips": [],
+			"pests": [],
+			"dishes": []
+		}
+		],
+		
+		"Lettuce
+		{
+			"tips": [],
+			"pests": [],
+			"dishes": []
+		}
+		],
+		
+		"Lima Bean": [
+		{
+			"tips": [],
+			"pests": [],
+			"dishes": []
+		}
+		],
+		
+		"Mustard": [
+		{
+			"tips": [],
+			"pests": [],
+			"dishes": []
+		}
+		],
+		
+		"Okra": [
+		{
+			"tips": [],
+			"pests": [],
+			"dishes": []
+		}
+		],
+		
+		"Onion": [
+		{
+			"tips": [],
+			"pests": [],
+			"dishes": []
+		}
+		],
+		
+		"Parsley": [
+		{
+			"tips": [],
+			"pests": [],
+			"dishes": []
+		}
+		],
+		
+		"Parsnip": [
+		{
+			"tips": [],
+			"pests": [],
+			"dishes": []
+		}
+		],
+		
+		"Pod Pea": [
+		{
+			"tips": [],
+			"pests": [],
+			"dishes": []
+		}
+		],
+		
+		"Potato": [
+		{
+			"tips": [],
+			"pests": [],
+			"dishes": []
+		}
+		],
+		
+		"Pumpkin": [
+		{
+			"tips": [],
+			"pests": [],
+			"dishes": []
+		}
+		],
+		
+		"Radish": [
+		{
+			"tips": [],
+			"pests": [],
+			"dishes": []
+		}
+		],
+		
+		"Red Onion": [
+		{
+			"tips": [],
+			"pests": [],
+			"dishes": []
+		}
+		],
+		
+		"Spinach": [
+		{
+			"tips": [],
+			"pests": [],
+			"dishes": []
+		}
+		],
+		
+		"Squash": [
+		{
+			"tips": [],
+			"pests": [],
+			"dishes": []
+		}
+		],
+		
+		"Tomato": [
+		{
+			"tips": [],
+			"pests": [],
+			"dishes": []
+		}
+		],
+		
+		"Turnip": [
+		{
+			"tips": [],
+			"pests": [],
+			"dishes": []
+		}
+		],
+		
+		"Watermelon": [
+		{
+			"tips": [],
+			"pests": [],
+			"dishes": []
+		}
+		],
+		
+		"Yam": [
+		{
+			"tips": [],
+			"pests": [],
+			"dishes": []
+		}
+		],
+		
+		"Zucchini": [
+		{
+			"tips": [],
+			"pests": [],
+			"dishes": []
+		}
+		]		
+	}
+	],
+	
 	"climates":
 	[
 		"Coastal",
