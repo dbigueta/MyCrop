@@ -13,13 +13,15 @@ public class Crop {
     private int waterTimer; //arbitiary
     private int currentTimeAlive = 0;
     private int harvestTime;
+    private String imageURL;
 
     public Crop() {}
-    public Crop(String name, List<String> season, List<String> climate, int harvestTime){
+    public Crop(String name, List<String> season, List<String> climate, int harvestTime, String imageURL){
         this.name = name;
         this.season = season;
         this.climate = climate;
         this.harvestTime = harvestTime;
+        this.imageURL = imageURL;
     }
 
     public String getName() {
@@ -41,4 +43,6 @@ public class Crop {
     public int getHarvestTime() {
         return harvestTime;
     }
+
+    public String getImageURL() { return imageURL; }
 }
