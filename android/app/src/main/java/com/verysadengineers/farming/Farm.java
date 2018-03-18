@@ -44,11 +44,11 @@ public class Farm extends ArrayAdapter<Crop>{
         @SuppressLint("ViewHolder")
         View listViewItem = layoutInflater.inflate(R.layout.grid_layout_climate, null, true);
 
-        TextView textViewName = (TextView) listViewItem.findViewById(R.id.textViewItem);
+        //TextView textViewName = (TextView) listViewItem.findViewById(R.id.textViewItem);
 
         Crop crop = crops.get(position);
         System.out.println(crop.getName());
-        textViewName.setText(crop.getName());
+        //textViewName.setText(crop.getName());
 
         return listViewItem;
     }

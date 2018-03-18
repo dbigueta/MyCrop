@@ -5,7 +5,6 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.AdapterView;
-import android.widget.ArrayAdapter;
 import android.widget.GridView;
 import android.widget.ListView;
 
@@ -19,7 +18,7 @@ import java.util.List;
 public class SelectSeason extends AppCompatActivity{
 
 
-        private ListView listViewSeasons; //The list itself
+        private GridView gridViewSeasons; //The list itself
 
         private List<String> seasons = new ArrayList<>();
 
@@ -29,13 +28,15 @@ public class SelectSeason extends AppCompatActivity{
             setContentView(R.layout.activity_select_season);
 
             seasons.add("Fall");
+
             seasons.add("Spring");
 
-            listViewSeasons = findViewById(R.id.listViewSeasons);
-            final ArrayAdapter<String> adapter = new ArrayAdapter<>( this, android.R.layout.simple_list_item_1, seasons);
-            listViewSeasons.setAdapter(adapter);
+            gridViewSeasons = findViewById(R.id.gridViewSeasons);
 
-            listViewSeasons.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            SeasonList adapter = new SeasonList(SelectSeason.this, seasons);
+            gridViewSeasons.setAdapter(adapter);
+
+            gridViewSeasons.setOnItemClickListener(new AdapterView.OnItemClickListener() {
                 public void onItemClick(AdapterView<?> parent, View v,
                                         int position, long id) {
                     Intent intent = new Intent(v.getContext(), SelectCrop.class);
