@@ -1,4 +1,0 @@
-git pull 				//pulls current version of repository
-git add filename 			//add the file to the repository
-git commit -m "update message"		//tell us what you updated
-git push origin master			//update version of repository
